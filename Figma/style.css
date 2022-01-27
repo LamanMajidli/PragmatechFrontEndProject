@@ -1,10 +1,54 @@
 .golden-container {
-    position: relative;
+     position: relative;
+   
 }
 
 .nav-bar {
-    position: absolute;
+    width: 1400px;
+    height: 207px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: baseline;
+    /* position: absolute;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0; */
 }
+
+.nav-logo img {
+    width: 200px;
+    height: 55px;
+    margin-top: 14px;
+    margin-left: 145px;
+}
+.nav-info {
+    width: 850px;
+    height: 22px;
+    letter-spacing: 1px;
+    
+}
+
+.nav-info span {
+    font-family: Zilla Slab;
+    font-size: 18px;
+    
+}
+
+.nav-settings {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 305px;
+    height: 83px;
+    background: #253476;
+}
+
+.nav-settings p {
+    color: #FFFFFF;
+    text-align:center;
+
+}
+
+
