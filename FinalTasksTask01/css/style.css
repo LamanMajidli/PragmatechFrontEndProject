@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-container {
+    width: 100vw;
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-start;
+}
+
+.nav-bar {
+    width: 576px;
+    background-color: #eb692a;
+    padding: 25px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-date {
+    width: 384px;
+    text-align: right;
+    padding-right: 115px;
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.nav-contact-info {
+    width: 1344px;
+    background-color: #0d3674;
+    padding: 16px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    letter-spacing: 1px;
+}
+
+.contact {
+    width: 384px;
+    display: flex;
+
+    
+}
+
+.contact span {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-right: 25px;
+}
+
+.contact span :hover {
+    transition: .5s;
+    cursor: pointer;
+    color: #eb692a;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: .5s;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #eb692a;
+}
+
+
+.social-info {
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.social-info i:hover {
+    color: #eb692a;
+}
+
+.nav-menu {
+    width: 100vw;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 576px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo .logoImage img {
+    width: 384 px;
+    cursor: pointer;
+}
+
+.menu-all {
+    width: 1344px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    width: 768px;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li a {
+    position: relative;
+    line-height: 1;
+    color: #08194A;
+    font-size: 19px;
+    cursor: pointer;
+    transition: .7s;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ li a::after { 
+    display: block;
+    position: absolute;
+    left: 0; 
+    width: 0; 
+    height: 2px; 
+    background-color: #eb692a; 
+    transition: width .5s ease-out;  
+}
+
+li a:hover::after, a:focus::after {
+    width: 100%;
+    color: #eb692a;
+    transition: all .5s ease 0s;
+}
+
+.ContactUs {
+    width: 154px;
+    height: 100px;
+    background-color: #eb692a;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+    border-radius: 5px;
+}
+
+.ContactUs:hover {
+    background-color: #042250;
+}

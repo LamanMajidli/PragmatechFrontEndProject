@@ -1,0 +1,19 @@
+.team-container {
+    width: 100vw;
+    background-color: #cdcdcd;
+}
+
+.staff-container {
+    width: 1320px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.staff-h1 .staff-span {
+    background-color: #f7f7f7;
+}
+
