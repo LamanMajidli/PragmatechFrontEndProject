@@ -1,0 +1,45 @@
+.references{
+    margin:0px auto;
+}
+.review{
+    display:flex;
+}
+.review-items{
+    display:flex;
+    background: #fff;
+    box-shadow: 0 0 30px rgb(29 23 77 / 6%);
+    margin: 25px;
+    padding:30px;
+}
+blockquote{
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Roboto',sans-serif;
+        line-height: 1.57143;
+}
+span{
+    font-size: 16px;
+    font-weight: 500;
+    color:#333;
+    display: block;
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+.review-pic{
+    margin-top:17px;
+}
+.review-pic img{
+    width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+    margin: 0px;
+    margin-right: 20px;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.review-rating i{
+    color:#f26b31;
+}
