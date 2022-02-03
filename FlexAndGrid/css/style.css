@@ -50,11 +50,11 @@
 
 }
 
-/* .nav-social {
+.nav-social {
     width: 192px;
     height: 24px;
     letter-spacing: 2px;
-} */
+}
 .nav-social i {
     cursor: pointer;
 }
