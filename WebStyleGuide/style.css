@@ -1,5 +1,11 @@
 :root {
     --icon-backcolor: orange;
     --icon-color: white;
-    --icon-border-radius-size: 50%;
+
+}
+
+.icon i {
+    background-color: var(--icon-backcolor);
+    color: var(--icon-color);
+}
 
