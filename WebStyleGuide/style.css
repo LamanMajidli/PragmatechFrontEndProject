@@ -1,11 +1,17 @@
 :root {
     --icon-backcolor: orange;
     --icon-color: white;
+    --background-blue: blue;
 
 }
 
-.icon i {
+.fa-house {
     background-color: var(--icon-backcolor);
+    color: var(--icon-color);
+}
+
+.fa-facebook {
+    background-color: var(--background-blue);
     color: var(--icon-color);
 }
 
