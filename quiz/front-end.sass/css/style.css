@@ -1,0 +1,24 @@
+.trending_container_tittle_text {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  background: #333;
+  font-size: 11px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 6px 7px;
+  line-height: 100%;
+  text-transform: uppercase;
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.trending_container_tittle_text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  bottom: -7px;
+  border-top: 7px solid #333;
+  border-right: 7px solid transparent;
+}
