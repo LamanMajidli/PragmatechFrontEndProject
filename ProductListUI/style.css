@@ -1,0 +1,23 @@
+:root {
+    purple : #a46497;
+    dark-grey : #515151;
+    light-grey : #ebe9eb;
+    white : #fff;
+    black : #000;
+    orange : #F34723;
+    font-size: 1rem;
+}
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+/* .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+} */
+
