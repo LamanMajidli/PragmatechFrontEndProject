@@ -1,23 +1,113 @@
 :root {
-    purple : #a46497;
-    dark-grey : #515151;
-    light-grey : #ebe9eb;
-    white : #fff;
-    black : #000;
-    orange : #F34723;
-    font-size: 1rem;
+    --purple : #a46497;
+    --dark-grey : #515151;
+    --light-grey : #ebe9eb;
+    --white : #fff;
+    --black : #000;
+    --orange : #F34723;
+
 }
 
-/* * {
-    padding: 0;
+* {
     margin: 0;
-    box-sizing: border-box;
-} */
+    padding: 2px;
+}
 
-/* .row {
+.card {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100vh;
-} */
+    justify-content: space-around;
+    cursor: pointer;
+    /* box-shadow: 1px var(--dark-grey); */
+
+}
+
+
+.icon-like {
+    position:absolute;
+    
+}
+
+.icon-like i {
+    background: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 50%;
+    padding: 10px 10px;
+    margin: 3px;
+    font-size: 16px;
+    margin-right: 21%;
+    z-index: 99;
+}
+
+.card img {
+    width: 327px;
+    height: 400px;
+  
+}
+
+.card #first-img:hover {
+   content: url(./img/02.jpg); 
+   transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+   
+}
+
+.card #second-img:hover {
+    content: url(./img/002.jpg);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease; 
+    
+ }
+
+ .card #third-img:hover {
+    content: url(./img/001.jpg);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease; 
+    
+ }
+
+ .card #fourth-img:hover {
+    content: url(./img/0001.jpg);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease; 
+    
+ }
+
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+h3:hover {
+    color: var(--purple);
+}
+
+p {
+    font-weight: 600;
+}
+
+.icon-star   {
+    font-size: 12px;
+    color: var(--dark-grey);
+}
+
+.icon-star .rating :nth-child(1) {
+    color: var(--purple);
+}
+
+.icon-star .rating :nth-child(2) {
+    color: var(--purple);
+}
 
