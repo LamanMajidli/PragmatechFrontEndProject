@@ -10,84 +10,142 @@
 
 * {
     margin: 0;
-    padding: 2px;
+    cursor: pointer;
 }
 
 .card {
     display: flex;
     justify-content: space-around;
-    cursor: pointer;
-    /* box-shadow: 1px var(--dark-grey); */
-
+    margin-top: 20px;
 }
 
 
-.icon-like {
-    position:absolute;
-    
+.icons-wrappers {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    width: 38px;
+    height: 130px;
 }
 
-.icon-like i {
+.card-item {
+    position: relative;
+}
+
+.img-icons {
+    position: relative;
+    width: 100%;
+    height: 100%;
+} 
+
+.img-icons .fa-gratipay {
+    z-index: 10;
+}
+
+.img-icons i {
+    position: absolute;
     background: var(--white);
     border: 1px solid var(--black);
     border-radius: 50%;
     padding: 10px 10px;
-    margin: 3px;
+    top: 5px;
+    right: 0;
     font-size: 16px;
-    margin-right: 21%;
-    z-index: 99;
+} 
+
+.img-icons i:hover {
+    background: var(--purple);
+    border-radius: 50%;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
 }
 
+.card-item:hover .img-icons .fa-clone {
+    transform: translateY(110%);
+    transition: 0.5s ;
+    
+} 
+
+.card-item:hover .img-icons .fa-eye {
+    transform: translateY(220%);
+    transition: 0.5s ;
+}
+
+.card-item i {
+    transition: 0.5s ;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+.card-item:hover i {
+    opacity: 1;
+    
+}
+
+.img-icons .fa-clone , .img-icons .fa-eye {
+    opacity: 0;
+}
+
+
 .card img {
-    width: 327px;
+    width: 100%;
     height: 400px;
   
 }
 
 .card #first-img:hover {
    content: url(./img/02.jpg); 
-   transition: 0.5s ease;
-    -webkit-transition: 0.5s ease;
-    -moz-transition: 0.5s ease;
-    -ms-transition: 0.5s ease;
-    -o-transition: 0.5s ease;
+   transition: 1.5s ease;
+    -webkit-transition: 1.5s ease;
+    -moz-transition: 1.5s ease;
+    -ms-transition: 1.5s ease;
+    -o-transition: 1.5s ease;
    
 }
 
+
+.second-card {
+    position: relative;
+} 
+
 .card #second-img:hover {
     content: url(./img/002.jpg);
-    transition: 0.5s ease;
-    -webkit-transition: 0.5s ease;
-    -moz-transition: 0.5s ease;
-    -ms-transition: 0.5s ease;
-    -o-transition: 0.5s ease; 
+    transition: 1.5s ease;
+    -webkit-transition: 1.5s ease;
+    -moz-transition: 1.5s ease;
+    -ms-transition: 1.5s ease;
+    -o-transition: 1.5s ease; 
     
  }
 
  .card #third-img:hover {
     content: url(./img/001.jpg);
-    transition: 0.5s ease;
-    -webkit-transition: 0.5s ease;
-    -moz-transition: 0.5s ease;
-    -ms-transition: 0.5s ease;
-    -o-transition: 0.5s ease; 
+    transition: 1.5s ease;
+    -webkit-transition: 1.5s ease;
+    -moz-transition: 1.5s ease;
+    -ms-transition: 1.5s ease;
+    -o-transition: 1.5s ease; 
     
  }
 
  .card #fourth-img:hover {
     content: url(./img/0001.jpg);
-    transition: 0.5s ease;
-    -webkit-transition: 0.5s ease;
-    -moz-transition: 0.5s ease;
-    -ms-transition: 0.5s ease;
-    -o-transition: 0.5s ease; 
+    transition: 1.5s ease;
+    -webkit-transition: 1.5s ease;
+    -moz-transition: 1.5s ease;
+    -ms-transition: 1.5s ease;
+    -o-transition: 1.5s ease;
     
  }
 
 h3 {
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 1px;  
 }
 
 h3:hover {
@@ -103,11 +161,46 @@ p {
     color: var(--dark-grey);
 }
 
-.icon-star .rating :nth-child(1) {
+.icon-star .rating :nth-child(1) , .rating :nth-child(2){
     color: var(--purple);
 }
 
-.icon-star .rating :nth-child(2) {
-    color: var(--purple);
+.card button {
+    width: 327px;
+    height: 50px;
+    background-color: var(--purple);
+    color: var(--black);
+    border: 0px;
+    opacity: 0;
+    transition: 0.5s ease;
 }
 
+.card :hover button {
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.card button:hover {
+    background-color: var(--black)!important ;
+    color: var(--white);
+    transition: 1.5s ease;
+    -webkit-transition: 1.5s ease;
+    -moz-transition: 1.5s ease;
+    -ms-transition: 1.5s ease;
+    -o-transition: 1.5s ease;
+}
+
+.sale {
+    position: absolute;
+    width: 50px;
+    bottom: 150px;
+    right: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.sale p {
+    background: var(--orange);
+    color: var(--white);
+}
