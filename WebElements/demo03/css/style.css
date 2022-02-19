@@ -3,6 +3,8 @@
   margin-left: auto;
   margin-right: auto;
   font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .demo-container {
@@ -33,17 +35,113 @@
   padding-right: 2rem;
   padding-left: 2rem;
   background-color: #fff;
+  overflow: hidden;
 }
 
-.demo-container .row .col4:hover {
-  border: 3px solid #24cf5f;
-  -webkit-transform: rotate(0.3return);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transition: .3s;
-  -moz-transition: .3s;
-  -ms-transition: .3s;
-  -o-transition: .3s;
+.demo-container .row .col4:hover::before {
+  width: 296px;
+  height: 350px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-animation: anima1 0.2 linear;
+          animation: anima1 0.2 linear;
+  opacity: 1;
+}
+
+.demo-container .row .col4::before {
+  content: "";
+  width: 100vh;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 4rem;
+  opacity: 0;
+  border-left: 2px solid #24cf5f;
+  border-bottom: 2px solid #24cf5f;
+}
+
+.demo-container .row .col4::after {
+  content: "";
+  width: 100vh;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 4rem;
+  opacity: 0;
+  border-right: 2px solid #24cf5f;
+  border-top: 2px solid #24cf5f;
+}
+
+.demo-container .row .col4:hover::after {
+  width: 296px;
+  height: 350px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-animation: anima2 0.2s linear;
+          animation: anima2 0.2s linear;
+  opacity: 1;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+@-webkit-keyframes anima1 {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  70% {
+    width: 220px;
+    height: 200px;
+  }
+  100% {
+    width: 296px;
+    height: 296px;
+  }
+}
+
+@keyframes anima1 {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  70% {
+    width: 220px;
+    height: 200px;
+  }
+  100% {
+    width: 296px;
+    height: 296px;
+  }
+}
+
+@-webkit-keyframes anima2 {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  70% {
+    width: 220px;
+    height: 200px;
+  }
+  100% {
+    width: 296px;
+    height: 296px;
+  }
+}
+
+@keyframes anima2 {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  70% {
+    width: 220px;
+    height: 200px;
+  }
+  100% {
+    width: 296px;
+    height: 296px;
+  }
 }
 
 .demo-container .row .col4 .demo-icon {
