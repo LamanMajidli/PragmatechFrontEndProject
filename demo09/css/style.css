@@ -1,0 +1,84 @@
+* {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.demo-container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.demo-container .demo-heading {
+  width: 72rem;
+  text-align: center;
+}
+
+.demo-container .demo-heading h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.demo-container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.demo-container .row .col4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  background-color: #f4ffb9;
+}
+
+.demo-container .row .col4:hover .demo-icon {
+  background-color: #c0df19;
+  -webkit-transition: all 0 0.5s ease;
+  transition: all 0 0.5s ease;
+  -webkit-animation: 0.5s;
+}
+
+.demo-container .row .col4:hover .demo-icon i {
+  color: #fff;
+  -webkit-transition: all 0 0.5s ease;
+  transition: all 0 0.5s ease;
+  -webkit-animation: 0.5s;
+}
+
+.demo-container .row .col4 .demo-icon {
+  width: 8rem;
+  height: 8rem;
+  margin: -5rem 6rem 1.25rem;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.demo-container .row .col4 .demo-icon i {
+  font-size: 3.25rem;
+  color: #c0df19;
+}
+
+.demo-container .row .col4 p {
+  padding: 0 1rem 1rem;
+  color: #919191;
+}
+
+.demo-container .row .col4 a {
+  text-decoration: none;
+  background: #c0df19;
+  color: #fff;
+  padding: 1rem;
+  margin: 0.625rem;
+  border-radius: 1rem;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.demo-container .row .col4 a:hover {
+  background-color: #99b114;
+}
