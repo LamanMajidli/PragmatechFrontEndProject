@@ -1,0 +1,119 @@
+$fontsize: 1rem ;
+$fontWeight: bold ;
+$color: #ee12a0;
+$darkenColor: darken($color, 10%);
+
+
+* {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.demo-container {
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+
+    .demo-heading {
+        width: 72rem;
+        text-align: center;
+
+        h3 {
+            font-weight: $fontWeight;
+            font-size: 2rem;
+        }
+    
+    }
+    
+    .row {
+        display: flex;
+        text-align: center;
+        
+    
+        .col4 {
+             
+        position: relative;
+        background-color:#fff;
+        border: 1px solid $color;
+        border-radius: 100%;
+
+
+
+        &:hover {
+            background-color: $color;
+            transition: all.0.5s ease;
+                -webkit-animation: 0.5s;
+
+            .demo-text p , h2 {
+                color: #fff;
+                transition: all.0.5s ease;
+                -webkit-animation: 0.5s;
+
+            }
+
+            a {
+                background-color: darken($color, 15%);
+                transition: all.0.5s ease;
+                -webkit-animation: 0.5s;
+            }
+        
+            .demo-icon {
+                background-color: #fff;
+                transition: all.0.5s ease;
+                -webkit-animation: 0.5s;
+
+                    i {
+                        color: $color;
+                        transition: all.0.5s ease;
+                        -webkit-animation: 0.5s;
+                    }
+            }
+            
+        }    
+
+            .demo-icon {
+                width: 8rem;
+                height: 8rem;
+                margin: -5rem 6rem 1rem;
+                border: 1px solid #fff;
+                border-radius: 100%;
+                background-color: $color;
+
+
+
+                i {
+                    font-size: 3.25rem;
+                    color: #fff;   
+
+                }
+            }
+            
+
+    
+           p {
+            padding: 0 1rem 1rem;
+            color: #000;
+           } 
+
+           a {
+               text-decoration: none;
+               background: $color;
+               color: #fff;
+               padding: 1rem;
+                margin-bottom: 1rem;
+               border-radius: 1rem;
+               display: inline-block;
+               cursor: pointer;
+
+           }
+           
+        }
+    
+    }
+    
+    
+}

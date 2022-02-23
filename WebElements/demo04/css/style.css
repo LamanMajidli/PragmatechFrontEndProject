@@ -1,0 +1,118 @@
+* {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.demo-container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.demo-container .demo-heading {
+  width: 72rem;
+  text-align: center;
+}
+
+.demo-container .demo-heading h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.demo-container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.demo-container .row .col4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  background-color: #fff;
+}
+
+.demo-container .row .col4 .demo-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.demo-container .row .col4:hover {
+  background: #ee12a0;
+  -webkit-animation-name: slideleft;
+          animation-name: slideleft;
+  animation-direction: reverse;
+  -webkit-animation-duration: 1s linear;
+          animation-duration: 1s linear;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+@-webkit-keyframes slideleft {
+  from {
+    margin-right: 0%;
+  }
+  to {
+    margin-left: 80%;
+  }
+}
+
+@keyframes slideleft {
+  from {
+    margin-right: 0%;
+  }
+  to {
+    margin-left: 80%;
+  }
+}
+
+.demo-container .row .col4:hover .demo-icon {
+  width: 8rem;
+  height: 8rem;
+  color: white;
+}
+
+.demo-container .row .col4:hover .demo-icon i {
+  font-size: 3.25rem;
+  color: white;
+}
+
+.demo-container .row .col4:hover p, .demo-container .row .col4:hover h2 {
+  color: #fff;
+}
+
+.demo-container .row .col4:hover a {
+  background-color: #f142b3;
+}
+
+.demo-container .row .col4 .demo-icon {
+  width: 8rem;
+  height: 8rem;
+  color: #ee12a0;
+}
+
+.demo-container .row .col4 .demo-icon i {
+  font-size: 3.25rem;
+  color: #ee12a0;
+}
+
+.demo-container .row .col4 p {
+  padding: 0 1rem 1rem;
+  color: #919191;
+}
+
+.demo-container .row .col4 a {
+  text-decoration: none;
+  background: #ee12a0;
+  color: #fff;
+  padding: 1rem;
+  margin-right: 2rem;
+  margin: 0.625rem;
+  border-radius: 1rem;
+  display: inline-block;
+  cursor: pointer;
+}

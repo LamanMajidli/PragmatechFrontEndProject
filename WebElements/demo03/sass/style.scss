@@ -1,7 +1,7 @@
 $fontsize: 1rem ;
 $fontWeight: bold ;
 $color: #24cf5f;;
-$darkenColor: lighten($color, 10%);
+$lightenColor: lighten($color, 10%);
 
 
 * {
