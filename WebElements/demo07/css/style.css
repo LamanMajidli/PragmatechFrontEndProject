@@ -1,0 +1,81 @@
+* {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.demo-container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.demo-container .demo-heading {
+  width: 72rem;
+  text-align: center;
+}
+
+.demo-container .demo-heading h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.demo-container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.demo-container .row .col4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  background-color: #fff;
+}
+
+.demo-container .row .col4 .demo-icon {
+  width: 8rem;
+  height: 8rem;
+}
+
+.demo-container .row .col4 .demo-icon:hover {
+  fading-entrances: fadeInRight;
+}
+
+.demo-container .row .col4 .demo-icon i {
+  font-size: 8.9rem;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  margin: 1.25rem;
+  color: #3a5ec2;
+}
+
+.demo-container .row .col4 h2 {
+  position: relative;
+  z-index: 1;
+  margin-top: -7rem;
+  margin-bottom: 1rem;
+}
+
+.demo-container .row .col4 p {
+  padding: 2rem 1rem 1rem;
+  color: #919191;
+}
+
+.demo-container .row .col4 a {
+  text-decoration: none;
+  background: #2e4b9b;
+  color: #fff;
+  padding: 1rem;
+  margin: 0.625rem;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.demo-container .row .col4 a:hover {
+  background-color: #3a5ec2;
+}

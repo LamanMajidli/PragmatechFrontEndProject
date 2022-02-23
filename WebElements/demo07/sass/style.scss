@@ -1,0 +1,113 @@
+$fontsize: 1rem ;
+$fontWeight: bold ;
+$color: #2e4b9b;
+$lightenColor: lighten($color, 10%);
+
+
+* {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+.demo-container {
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+
+    .demo-heading {
+        width: 72rem;
+        text-align: center;
+
+        h3 {
+            font-weight: $fontWeight;
+            font-size: 2rem;
+        }
+    
+    }
+    
+    .row {
+        display: flex;
+        text-align: center;
+           
+        
+
+
+
+        .col4 {
+             
+        position: relative;
+        min-height: 1px;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        background-color:#fff;
+   
+
+        
+
+
+            .demo-icon {
+                width: 8rem;
+                height: 8rem;
+        
+
+                &:hover{
+                    fading-entrances: fadeInRight;
+                }
+                    
+
+                i {
+                    
+                    font-size: 8.9rem;
+                    position: absolute;
+                    z-index: 0;
+                    top: 0;
+                    right: 0;
+                    margin: 1.25rem;
+                    color: lighten($color, 10%);   
+
+                }
+            }
+            
+            h2 {
+                position: relative;
+                z-index: 1;
+                margin-top: -7rem;
+                margin-bottom: 1rem;
+            }
+            
+            
+           p {
+            padding: 2rem 1rem 1rem;
+            color: #919191;
+           } 
+
+           a {
+               text-decoration: none;
+               background: $color;
+               color: #fff;
+               padding: 1rem;
+               margin: 0.625rem;
+            //    border-radius: 1rem;
+               display: inline-block;
+               cursor: pointer;
+
+            &:hover {
+                background-color: lighten($color, 10%);
+    
+            }
+
+           }
+           
+        }
+    
+    }
+    
+    
+}
+
