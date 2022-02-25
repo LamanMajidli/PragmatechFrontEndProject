@@ -36,15 +36,43 @@
           box-shadow: 1px 2px 4px #919191;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  -webkit-animation: 0.5s;
+  background-color: transparent;
 }
 
-.demo-container .row .col4:hover {
+.demo-container .row .col4::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
   background-color: orange;
-  -webkit-transform: rotateX();
-          transform: rotateX();
-  -webkit-transition: all 0 0.5s ease;
-  transition: all 0 0.5s ease;
+  z-index: -5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.demo-container .row .col4:hover::before {
+  height: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.demo-container .row .col4:hover .demo-icon {
+  color: #fff;
+}
+
+.demo-container .row .col4:hover .demo-icon i {
+  color: #fff;
+}
+
+.demo-container .row .col4:hover p, .demo-container .row .col4:hover h2 {
+  color: #fff;
+}
+
+.demo-container .row .col4:hover a {
+  background: #fff;
+  color: orange;
 }
 
 .demo-container .row .col4 .demo-icon {
@@ -53,6 +81,10 @@
   color: orange;
   border: solid;
   border-radius: 100%;
+}
+
+.demo-container .row .col4 .demo-icon i {
+  font-size: 3.5rem;
 }
 
 .demo-container .row .col4 p {
@@ -68,4 +100,14 @@
   margin: 0.625rem;
   display: inline-block;
   cursor: pointer;
+}
+
+.demo-container .row .col4 .action {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  top: 0;
+  z-index: -1;
+  opacity: 0;
 }
