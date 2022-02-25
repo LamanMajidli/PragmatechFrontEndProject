@@ -46,32 +46,60 @@ $lightenColor: lighten($color, 10%);
         padding-right: 2rem;
         padding-left: 2rem;
         background-color:#fff;
-   
+        
 
-            .demo-card {
-                display: flex;
 
-            }
+        .demo-card {
+            display: flex;
+
+        }
+        // &::after {
+        //     position: absolute;
+        //     z-index: -1;
+        //     top: 0;
+        //     right: 0;
+        //     bottom: 0;
+        //     left: 0;
+        // }
+
+        // &::before {
+        //     content: "";
+        //     position: absolute;
+        //     bottom: 0;
+        //     left: 0;
+        //     width: 100%;
+        //     height: 0;
+        //     background-color: #e12573;
+        //     z-index: -5;
+        //     transition: 0.5s;
+        // }
+
+
 
 
         &:hover{
-            background: $color;
-            animation-name: slideleft;
-            animation-direction: reverse;
-            animation-duration: 1s linear;
-            transition: 0.5s all;
-            
-            @keyframes slideleft {
-                from {
-                    margin-right: 0%;
-                }
-                to {
-                    margin-left: 80%;
-                }
+
+            // &::after {
+            //     height: 100%;
+            //     bottom: 10px;
+            //     content: '';
+            //     transition: all .4s ease;
+            //     transform: translateX(100%);
+            //     background: #e12573;
+            // }
+
+            &::after {
+                position: absolute;
+                z-index: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                content: '';
+                transition: all .4s ease;
+                transform: translateX(100%);
+                background: #e12573;
             }
-
-            
-
 
             .demo-icon {
                 width: 8rem;
