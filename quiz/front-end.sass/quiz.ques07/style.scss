@@ -1,0 +1,36 @@
+$border-solid: border 1px solid red ;
+$background: #343a40;
+$color:#fff;
+
+.navrbar_brand_logo {
+    // border : $border-solid
+    
+}
+
+    .navbar_brand_nav {
+        // border: $border-solid;
+        display: flex;
+        align-items: center;
+
+        ul {
+            display: flex;
+            align-items: center;
+
+            li {
+                margin: 0 10px;
+            }
+        }
+    }
+
+    .navbar_user {
+        // border: $border-solid;
+        align-items: center;
+
+        button {
+            background-color: $background;
+            color: $color;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 20px;
+        }
+    }
