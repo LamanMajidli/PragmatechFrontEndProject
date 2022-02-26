@@ -1,0 +1,39 @@
+$color: #00427a;
+$font-weight: 700;
+$font-size: 31px;
+$margin: 0 auto;
+
+
+.stat-container {
+    width: 1140px;
+    margin: $margin;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    // background: gray;
+}
+
+.stat-item {
+    // border: 1px solid rgb(21, 46, 160);
+    width: calc(25% - 10px);
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif ;
+
+    div {
+        // background: red;
+        border: 1px solid $color;
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: $margin;
+        margin-bottom: 20px;
+        font-size: $font-size;
+        font-weight: $font-weight;
+        color: $color;
+    }
+
+}
