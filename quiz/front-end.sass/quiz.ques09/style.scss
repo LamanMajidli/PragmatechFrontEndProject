@@ -1,0 +1,29 @@
+$primary-color: #fff;
+$secondary-color: #333;
+$fount-size-11: 11px;
+$fount-font-weight: 400;
+
+.trending_container_tittle_text {
+    position: relative;
+    display: inline-block;
+    color: $primary-color;
+    background: $secondary-color;
+    font-size: $fount-size-11;
+    font-weight: $fount-font-weight;
+    font-style: normal;
+    padding: 6px 7px;
+    line-height: 100%;
+    text-transform: uppercase;
+    float: left;
+    margin: 0 15px 0 0;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        z-index: 0;
+        bottom: -7px;
+        border-top: 7px solid $secondary-color;
+        border-right: 7px solid transparent;
+    }
+}
