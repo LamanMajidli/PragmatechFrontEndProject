@@ -8,3 +8,11 @@ Bu populyar və güclü proqramlaşdırma dilinin imkanlarını sadalayarkən qe
 
 javascript, açılan menyular kimi naviqasiya vasitələri ilə veb saytların dizaynını artıra bilər. javascript köməyi ilə veb səhifələrdə siçan və klaviatura hərəkətlərini fərdiləşdirə bilərsiniz.javascript nədir? Bütün brauzerlərin başa düşdüyü dil olaraq qaldığı müddətcə populyar olaraq qalan bir proqramlaşdırma dili olaraq suala cavab vermək mümkündür.
 
+# Veb səhifələrin işləmə prinsipi : İnternet ve intranet arasındakı fərqlər nədir?
+
+* İnternet hər kəs üçün açıq olduğundan, müəyyən bir təşkilat və ya özəl icma, məktəb, kollec, universitet və s. Kimi bir sıra sahələrdə işləyən bir şəbəkənin inkişafına ehtiyac var idi. İntranet və ekstranet terminlərinin yaranmasının səbəbi budur. Intranet, müəyyən bir qrup insan şəbəkəsi daxilində təhlükəsizlik və məxfilik təmin edir.
+
+# Server-side və client-side ifadələrinin mənası nədir?
+
+* Server-side və client-side proqram kodunun harada işlədiyini təsvir edən veb inkişaf şərtləridir. Veb tərtibatçıları həmçinin bu fərqə frontend və backend kimi istinad edəcəklər, baxmayaraq ki, müştəri tərəfi/server tərəfi və frontend/backend tam eyni deyil. Serversiz arxitekturada serversiz təchizatçı bütün server tərəfindəki proseslərə resursları yerləşdirir və təyin edir və tətbiqdən istifadə artdıqca proseslər genişlənir.
+
