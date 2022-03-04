@@ -16,3 +16,9 @@ javascript, açılan menyular kimi naviqasiya vasitələri ilə veb saytların d
 
 * Server-side və client-side proqram kodunun harada işlədiyini təsvir edən veb inkişaf şərtləridir. Veb tərtibatçıları həmçinin bu fərqə frontend və backend kimi istinad edəcəklər, baxmayaraq ki, müştəri tərəfi/server tərəfi və frontend/backend tam eyni deyil. Serversiz arxitekturada serversiz təchizatçı bütün server tərəfindəki proseslərə resursları yerləşdirir və təyin edir və tətbiqdən istifadə artdıqca proseslər genişlənir.
 
+# Server nədir və necə işləyir?
+
+* Server nədir? Bu texnologiya yerinə yetirilən vəzifələrin maksimum təhlükəsizliyini təmin edir və internet istifadəçilərinin fayllarını və veb saytları saxlamaq, istəklərə cavab vermək və istənilən məlumatı təmin etmək, verilənlər bazası ilə işləmək və çox sayda istifadəçiyə məlumat vermək üçün istifadə olunur. Onlar internetin fəaliyyətində və korporativ şəbəkələrin işlənməsində mühüm rol oynayır. Bununla yanaşı şirkətlərin işlərini əhəmiyyətli dərəcədə sadələşdirir və veb-saytların, xəbər agentliklərinin fəaliyyətinin təmin olunmasını, habelə internet istifadəçiləri tərəfindən məlumatların alınmasını təmin edir.
+ 
+
+Server nədir sualının bir digər cavabı digər kompüter proqramlarına və onun istifadəçilərinə göstərilən xidməti təmin edən kompüter proqramıdır. Bir serverin ən əhəmiyyətli xüsusiyyətlərindən biri təhlükəsiz, fasiləsiz və sabit bir performans ilə məlumat axınını təmin etmək qabiliyyətidir.
