@@ -1,1 +1,2 @@
-/* No CSS */
+@import url("./generals/_colors.scss");
+@import url("./generals/_layout.scss");
