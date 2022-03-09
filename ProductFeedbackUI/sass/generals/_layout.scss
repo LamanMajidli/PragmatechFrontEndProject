@@ -105,21 +105,21 @@ a {
         color: $colorp;
     }
 
-    .reports {
+    .reports , .paths {
         width: 18rem;
         height: 15rem;
         margin-top: 1.5rem;
         border-radius: 0.5rem;
         background: #fff;
 
-        .reports-pink {
+        .reports-pink , .paths-pink {
             width: 18rem;
             height: 0.3rem;
             border-radius: 0.5rem;
             background: $pink;
         }
 
-        .reports-p1 {
+        .reports-p1 , .paths-p {
             width: 3.5rem;
             height: 1.4rem;
             font-size: 1rem;
@@ -127,7 +127,7 @@ a {
             color: $colorp;
 
         }
-        .reports-h {
+        .reports-h , .paths-h {
             width: 15rem;
             height: 1.6rem;
             font-size: 1rem;
@@ -138,19 +138,21 @@ a {
             color: $colorh;
         }
 
-        .reports-p2 {
+        .reports-p2 , .paths-p2 {
             width: 17.5rem;
             height: 2.8rem;
             font-size: 1rem;
+            margin-top: 0.3rem;
             margin-left: 0.6rem;
             color: $colorp;
         }
 
-        .feature {
-            width: 4.8rem;
-            height: 1.8rem;
+        .reports-feature , .paths-features {
+            height: 2.5rem;
             border-radius: 0.8rem;
             background: $button;
+            color: $colorp;
+            padding: 0.5rem;    
         }
     }
 

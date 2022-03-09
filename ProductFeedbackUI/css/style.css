@@ -158,7 +158,7 @@ a i {
   color: #647196;
 }
 
-.road-main .reports {
+.road-main .reports, .road-main .paths {
   width: 18rem;
   height: 15rem;
   margin-top: 1.5rem;
@@ -166,14 +166,14 @@ a i {
   background: #fff;
 }
 
-.road-main .reports .reports-pink {
+.road-main .reports .reports-pink, .road-main .reports .paths-pink, .road-main .paths .reports-pink, .road-main .paths .paths-pink {
   width: 18rem;
   height: 0.3rem;
   border-radius: 0.5rem;
   background: #F49F85;
 }
 
-.road-main .reports .reports-p1 {
+.road-main .reports .reports-p1, .road-main .reports .paths-p, .road-main .paths .reports-p1, .road-main .paths .paths-p {
   width: 3.5rem;
   height: 1.4rem;
   font-size: 1rem;
@@ -181,7 +181,7 @@ a i {
   color: #647196;
 }
 
-.road-main .reports .reports-h {
+.road-main .reports .reports-h, .road-main .reports .paths-h, .road-main .paths .reports-h, .road-main .paths .paths-h {
   width: 15rem;
   height: 1.6rem;
   font-size: 1rem;
@@ -192,17 +192,19 @@ a i {
   color: #3A4374;
 }
 
-.road-main .reports .reports-p2 {
+.road-main .reports .reports-p2, .road-main .reports .paths-p2, .road-main .paths .reports-p2, .road-main .paths .paths-p2 {
   width: 17.5rem;
   height: 2.8rem;
   font-size: 1rem;
+  margin-top: 0.3rem;
   margin-left: 0.6rem;
   color: #647196;
 }
 
-.road-main .reports .feature {
-  width: 4.8rem;
-  height: 1.8rem;
+.road-main .reports .reports-feature, .road-main .reports .paths-features, .road-main .paths .reports-feature, .road-main .paths .paths-features {
+  height: 2.5rem;
   border-radius: 0.8rem;
   background: #F2F4FF;
+  color: #647196;
+  padding: 0.5rem;
 }
