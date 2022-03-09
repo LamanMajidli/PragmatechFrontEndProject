@@ -73,6 +73,7 @@ a i {
 .roadmap-container {
   width: 100%;
   height: 100vh;
+  background: #F2F2F2;
 }
 
 .row {
@@ -94,27 +95,44 @@ a i {
 
 .col12 {
   width: 65rem;
-  height: 5rem;
-  margin-top: 4.8rem;
-  margin-left: 10rem;
+  height: 5.2rem;
+  margin-top: 2rem;
+  padding: 1rem;
   background: #373F68;
   border-radius: 0.8rem;
 }
 
-.col12 .road-nav .arrow-left {
+.col12 .logo-container .logo {
+  height: 0.3rem;
+}
+
+.col12 .logo-container .logo .arrow-left {
   margin-left: 2rem;
 }
 
+.col12 .logo-container .logo h1 {
+  font-size: 1.25rem;
+  margin-left: 2rem;
+  margin-top: 0.8rem;
+  color: #fff;
+}
+
 .col12 .feed-button {
-  width: 8rem;
   height: 2.5rem;
   border-radius: 0.8rem;
   background: #AD1FEA;
-  margin-left: 85%;
+  margin-left: 52rem;
   padding: 0.5rem;
 }
 
 .col12 .feed-button .plus {
-  margin-left: 1rem;
+  margin-left: 2rem;
   text-align: center;
+}
+
+.road-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
 }
