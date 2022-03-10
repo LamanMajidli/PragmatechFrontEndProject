@@ -1,7 +1,8 @@
 $purple: #AD1FEA;
 $back-col: #F2F2F2;
 $pink: #F49F85;
-// $siren: #AD1FEA;
+$colorh: #3A4374;
+$colorp: #647196;
 $commentcolor: #CDD2EE;
 $button: #F2F4FF;
 $buttonclick: #4661E6;
@@ -82,5 +83,39 @@ a {
 .road-main {
     display: flex;
     margin-top: 2rem;
+    width: 65rem;
     
+    .planned-research h2 , .progress-developed h2 , .live-features h2{
+        width: 6rem;
+        height: 1.7rem;
+        font-weight: 700 bold;
+        font-size: 1.02rem;
+        line-height: 1.7rem;
+        letter-spacing: -0.05rem;
+        color: $colorh;
+    }
+
+    .planned-research p , .progress-developed p , .live-features p{
+        width: 12.25rem;
+        height: 1.5rem;
+        font-size: 1rem;
+        font-family: 400;
+        line-height: 1.7rem;
+        color: $colorp;
+    }
+
+    .reports {
+        width: 21rem;
+        height: 17rem;
+        border-radius: 0.6rem;
+        background: #fff;
+
+        .div-pink1 {
+            width: 21rem;
+            height: 0.3rem;
+            border-radius: 0.5rem;
+            background: $pink;
+        }
+    }
+
 }

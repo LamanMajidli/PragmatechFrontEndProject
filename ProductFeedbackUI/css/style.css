@@ -135,4 +135,38 @@ a i {
   display: -ms-flexbox;
   display: flex;
   margin-top: 2rem;
+  width: 65rem;
+}
+
+.road-main .planned-research h2, .road-main .progress-developed h2, .road-main .live-features h2 {
+  width: 6rem;
+  height: 1.7rem;
+  font-weight: 700 bold;
+  font-size: 1.02rem;
+  line-height: 1.7rem;
+  letter-spacing: -0.05rem;
+  color: #3A4374;
+}
+
+.road-main .planned-research p, .road-main .progress-developed p, .road-main .live-features p {
+  width: 12.25rem;
+  height: 1.5rem;
+  font-size: 1rem;
+  font-family: 400;
+  line-height: 1.7rem;
+  color: #647196;
+}
+
+.road-main .reports {
+  width: 21rem;
+  height: 17rem;
+  border-radius: 0.6rem;
+  background: #fff;
+}
+
+.road-main .reports .div-pink1 {
+  width: 21rem;
+  height: 0.3rem;
+  border-radius: 0.5rem;
+  background: #F49F85;
 }
