@@ -5,9 +5,11 @@ $colorh: #3A4374;
 $colorp: #647196;
 $commentcolor: #CDD2EE;
 $button: #F2F4FF;
+$buttonhover: #C75AF6;
 $buttonclick: #4661E6;
 $blue: #62BCFA;
 $nav-back: #373F68;
+$icons-hover: #CFD7FF;
 
 
 * {
@@ -20,16 +22,19 @@ $nav-back: #373F68;
 a {
     text-decoration: none;
     font-size: 0.8rem;
+    cursor: pointer;
+
     i {
         margin-right: 0.5rem;
-        font-size: 0.5rem;
+        font-size: 0.8rem;  
     }
     
 }
+
 // Nav-bar style start
 .roadmap-container {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: $back-col;
 }
 
@@ -76,17 +81,23 @@ a {
             text-align: center;
             color: #fff;
         }
+    &:hover {
+        background-color: $buttonhover;
+    }  
     }
 }
 // Nav-bar style end
 
+
 // Main style start
 .road-main {
     display: flex;
+    align-content: center;
+    justify-content: space-between;
     margin-top: 2rem;
     width: 65rem;
     
-    .planned-research h2 , .progress-developed h2 , .live-features h2{
+    .planned-research h2 , .progress-developed h2 , .live-features h2 {
         width: 6rem;
         height: 1.7rem;
         font-weight: 700 bold;
@@ -117,9 +128,10 @@ a {
             height: 0.3rem;
             border-radius: 0.5rem;
             background: $pink;
+            margin-bottom: 1rem;
         }
 
-        .reports-p1 , .paths-p {
+        .reports-p , .paths-p {
             width: 3.5rem;
             height: 1.4rem;
             font-size: 1rem;
@@ -147,13 +159,236 @@ a {
             color: $colorp;
         }
 
-        .reports-feature , .paths-features {
-            height: 2.5rem;
+        .reports-commit , .paths-commit {
+            display: flex;
+            flex-direction: column;
+            margin-left: 0.5rem;
+            margin-top: 1rem;
+
+  
+
+            .reports-feature , .chevron-up , .paths-features , .paths-chevron {
+                width: 3.5rem;
+                height: 1.8rem;
+                border-radius: 0.8rem;
+                background: $button;
+                color: $colorp;
+                padding: 0.5rem;
+                margin-top: 0.5rem; 
+                transition: 0.35s ease;
+                
+                &:hover {
+                    background: $icons-hover;
+                }  
+                &:focus {
+                    background: $buttonclick;
+                    transition: 0.35s ease;
+                    color: #fff;
+                }     
+            }
+        }
+        
+
+        .comment {
             border-radius: 0.8rem;
             background: $button;
             color: $colorp;
-            padding: 0.5rem;    
+            margin-left: 15rem;
+            padding: 0.5rem;
+            transition: 0.35s ease;
+
+            &:hover {
+                background: $icons-hover;
+            }  
+            &:focus {
+                background: $buttonclick;
+                transition: 0.35s ease;
+                color: #fff;
+            }   
         }
     }
 
+    .generation , .challenges , .screenshots {
+        width: 18rem;
+        height: 15rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+        border-radius: 0.5rem;
+        background: #fff;
+
+
+
+        .generation-purple , .challenges-purple , .screenshots-purple {
+            width: 18rem;
+            height: 0.3rem;
+            border-radius: 0.5rem;
+            background: $purple;
+            margin-bottom: 1rem;
+        }
+
+        .generation-p , .challenges-p , .screenshots-p {
+            width: 3.5rem;
+            height: 1.4rem;
+            font-size: 1rem;
+            margin-left: 1.5rem;
+            color: $colorp;
+        }
+
+        .generation-h , .challenges-h, .screenshots-h {
+            width: 15rem;
+            height: 1.6rem;
+            font-size: 1rem;
+            font-weight: 700 bold;
+            line-height: 1.7rem;
+            letter-spacing: 0.05rem;
+            margin-top: 0.5rem;
+            margin-left: 0.6rem;
+            color: $colorh;
+        }
+
+        .generation-p2 , .screenshots-p2 , .challenges-p2 {
+            width: 17.5rem;
+            height: 2.8rem;
+            font-size: 1rem;
+            margin-top: 0.3rem;
+            margin-left: 0.6rem;
+            color: $colorp;
+        }
+
+        .generation-commit , .challenges-commit , .screenshots-commit {
+            display: flex;
+            flex-direction: column;
+            margin-left: 0.5rem;
+            margin-top: 1rem;
+
+            .generation-features , .generation-chevron , .challenges-features , .challenges-chevron .screenshots-bug , .screen-chevron {
+                width: 3.5rem;
+                height: 1.8rem;
+                border-radius: 0.8rem;
+                background: $button;
+                color: $colorp;
+                padding: 0.5rem;
+                margin-top: 0.5rem;
+                transition: 0.35s ease;  
+                
+                &:hover {
+                    background: $icons-hover;
+                } 
+                &:focus {
+                    background: $buttonclick;
+                    transition: 0.35s ease;
+                    color: #fff;
+                }  
+            }
+        }
+        .comment {
+            border-radius: 0.8rem;
+            background: $button;
+            color: $colorp;
+            margin-left: 15rem;
+            padding: 0.5rem;
+            transition: 0.35s ease;
+
+            &:hover {
+                background: $icons-hover;
+            } 
+            &:focus {
+                background: $buttonclick;
+                transition: 0.35s ease;
+                color: #fff;
+            }  
+        }
+    }
+
+    .interactions {
+        width: 18rem;
+        height: 15rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+        border-radius: 0.5rem;
+        background: #fff;
+
+
+
+        .live-blue {
+            width: 18rem;
+            height: 0.3rem;
+            border-radius: 0.5rem;
+            background: $purple;
+            margin-bottom: 1rem;
+        }
+
+        .live-p {
+            width: 3.5rem;
+            height: 1.4rem;
+            font-size: 1rem;
+            margin-left: 1.5rem;
+            color: $colorp;
+        }
+
+        .live-h {
+            width: 15rem;
+            height: 1.6rem;
+            font-size: 1rem;
+            font-weight: 700 bold;
+            line-height: 1.7rem;
+            letter-spacing: 0.05rem;
+            margin-top: 0.5rem;
+            margin-left: 0.6rem;
+            color: $colorh;
+        }
+
+        .live-p2 {
+            width: 17.5rem;
+            height: 2.8rem;
+            font-size: 1rem;
+            margin-top: 0.3rem;
+            margin-left: 0.6rem;
+            color: $colorp;
+        }
+
+        .live-commit {
+            display: flex;
+            flex-direction: column;
+            margin-left: 0.5rem;
+            margin-top: 1rem;
+
+            .live-enchancement , .live-chevron {
+                width: 3.5rem;
+                height: 1.8rem;
+                border-radius: 0.8rem;
+                background: $button;
+                color: $colorp;
+                padding: 0.5rem;
+                margin-top: 0.5rem; 
+                transition: 0.35s ease;
+                
+                &:hover {
+                    background: $icons-hover;
+                } 
+                &:focus {
+                    background: $buttonclick;
+                    transition: 0.35s ease;
+                    color: #fff;
+                }  
+            }
+        }
+        .comment {
+            border-radius: 0.8rem;
+            background: $button;
+            color: $colorp;
+            margin-left: 15rem;
+            padding: 0.5rem;
+            transition: 0.35s ease;
+            
+            &:hover {
+                background: $icons-hover;
+            }
+            &:focus {
+                background: $buttonclick;
+                transition: 0.35s ease;
+                color: #fff;
+            }  
+        }
+    }
 }

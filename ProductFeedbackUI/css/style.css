@@ -62,16 +62,17 @@ table {
 a {
   text-decoration: none;
   font-size: 0.8rem;
+  cursor: pointer;
 }
 
 a i {
   margin-right: 0.5rem;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .roadmap-container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background: #F2F2F2;
 }
 
@@ -131,10 +132,19 @@ a i {
   color: #fff;
 }
 
+.col12 .feed-button:hover {
+  background-color: #C75AF6;
+}
+
 .road-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 2rem;
   width: 65rem;
 }
@@ -171,9 +181,10 @@ a i {
   height: 0.3rem;
   border-radius: 0.5rem;
   background: #F49F85;
+  margin-bottom: 1rem;
 }
 
-.road-main .reports .reports-p1, .road-main .reports .paths-p, .road-main .paths .reports-p1, .road-main .paths .paths-p {
+.road-main .reports .reports-p, .road-main .reports .paths-p, .road-main .paths .reports-p, .road-main .paths .paths-p {
   width: 3.5rem;
   height: 1.4rem;
   font-size: 1rem;
@@ -201,10 +212,262 @@ a i {
   color: #647196;
 }
 
-.road-main .reports .reports-feature, .road-main .reports .paths-features, .road-main .paths .reports-feature, .road-main .paths .paths-features {
-  height: 2.5rem;
+.road-main .reports .reports-commit, .road-main .reports .paths-commit, .road-main .paths .reports-commit, .road-main .paths .paths-commit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+.road-main .reports .reports-commit .reports-feature, .road-main .reports .reports-commit .chevron-up, .road-main .reports .reports-commit .paths-features, .road-main .reports .reports-commit .paths-chevron, .road-main .reports .paths-commit .reports-feature, .road-main .reports .paths-commit .chevron-up, .road-main .reports .paths-commit .paths-features, .road-main .reports .paths-commit .paths-chevron, .road-main .paths .reports-commit .reports-feature, .road-main .paths .reports-commit .chevron-up, .road-main .paths .reports-commit .paths-features, .road-main .paths .reports-commit .paths-chevron, .road-main .paths .paths-commit .reports-feature, .road-main .paths .paths-commit .chevron-up, .road-main .paths .paths-commit .paths-features, .road-main .paths .paths-commit .paths-chevron {
+  width: 3.5rem;
+  height: 1.8rem;
   border-radius: 0.8rem;
   background: #F2F4FF;
   color: #647196;
   padding: 0.5rem;
+  margin-top: 0.5rem;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+}
+
+.road-main .reports .reports-commit .reports-feature:hover, .road-main .reports .reports-commit .chevron-up:hover, .road-main .reports .reports-commit .paths-features:hover, .road-main .reports .reports-commit .paths-chevron:hover, .road-main .reports .paths-commit .reports-feature:hover, .road-main .reports .paths-commit .chevron-up:hover, .road-main .reports .paths-commit .paths-features:hover, .road-main .reports .paths-commit .paths-chevron:hover, .road-main .paths .reports-commit .reports-feature:hover, .road-main .paths .reports-commit .chevron-up:hover, .road-main .paths .reports-commit .paths-features:hover, .road-main .paths .reports-commit .paths-chevron:hover, .road-main .paths .paths-commit .reports-feature:hover, .road-main .paths .paths-commit .chevron-up:hover, .road-main .paths .paths-commit .paths-features:hover, .road-main .paths .paths-commit .paths-chevron:hover {
+  background: #CFD7FF;
+}
+
+.road-main .reports .reports-commit .reports-feature:focus, .road-main .reports .reports-commit .chevron-up:focus, .road-main .reports .reports-commit .paths-features:focus, .road-main .reports .reports-commit .paths-chevron:focus, .road-main .reports .paths-commit .reports-feature:focus, .road-main .reports .paths-commit .chevron-up:focus, .road-main .reports .paths-commit .paths-features:focus, .road-main .reports .paths-commit .paths-chevron:focus, .road-main .paths .reports-commit .reports-feature:focus, .road-main .paths .reports-commit .chevron-up:focus, .road-main .paths .reports-commit .paths-features:focus, .road-main .paths .reports-commit .paths-chevron:focus, .road-main .paths .paths-commit .reports-feature:focus, .road-main .paths .paths-commit .chevron-up:focus, .road-main .paths .paths-commit .paths-features:focus, .road-main .paths .paths-commit .paths-chevron:focus {
+  background: #4661E6;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+  color: #fff;
+}
+
+.road-main .reports .comment, .road-main .paths .comment {
+  border-radius: 0.8rem;
+  background: #F2F4FF;
+  color: #647196;
+  margin-left: 15rem;
+  padding: 0.5rem;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+}
+
+.road-main .reports .comment:hover, .road-main .paths .comment:hover {
+  background: #CFD7FF;
+}
+
+.road-main .reports .comment:focus, .road-main .paths .comment:focus {
+  background: #4661E6;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+  color: #fff;
+}
+
+.road-main .generation, .road-main .challenges, .road-main .screenshots {
+  width: 18rem;
+  height: 15rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.road-main .generation .generation-purple, .road-main .generation .challenges-purple, .road-main .generation .screenshots-purple, .road-main .challenges .generation-purple, .road-main .challenges .challenges-purple, .road-main .challenges .screenshots-purple, .road-main .screenshots .generation-purple, .road-main .screenshots .challenges-purple, .road-main .screenshots .screenshots-purple {
+  width: 18rem;
+  height: 0.3rem;
+  border-radius: 0.5rem;
+  background: #AD1FEA;
+  margin-bottom: 1rem;
+}
+
+.road-main .generation .generation-p, .road-main .generation .challenges-p, .road-main .generation .screenshots-p, .road-main .challenges .generation-p, .road-main .challenges .challenges-p, .road-main .challenges .screenshots-p, .road-main .screenshots .generation-p, .road-main .screenshots .challenges-p, .road-main .screenshots .screenshots-p {
+  width: 3.5rem;
+  height: 1.4rem;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  color: #647196;
+}
+
+.road-main .generation .generation-h, .road-main .generation .challenges-h, .road-main .generation .screenshots-h, .road-main .challenges .generation-h, .road-main .challenges .challenges-h, .road-main .challenges .screenshots-h, .road-main .screenshots .generation-h, .road-main .screenshots .challenges-h, .road-main .screenshots .screenshots-h {
+  width: 15rem;
+  height: 1.6rem;
+  font-size: 1rem;
+  font-weight: 700 bold;
+  line-height: 1.7rem;
+  letter-spacing: 0.05rem;
+  margin-top: 0.5rem;
+  margin-left: 0.6rem;
+  color: #3A4374;
+}
+
+.road-main .generation .generation-p2, .road-main .generation .screenshots-p2, .road-main .generation .challenges-p2, .road-main .challenges .generation-p2, .road-main .challenges .screenshots-p2, .road-main .challenges .challenges-p2, .road-main .screenshots .generation-p2, .road-main .screenshots .screenshots-p2, .road-main .screenshots .challenges-p2 {
+  width: 17.5rem;
+  height: 2.8rem;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  margin-left: 0.6rem;
+  color: #647196;
+}
+
+.road-main .generation .generation-commit, .road-main .generation .challenges-commit, .road-main .generation .screenshots-commit, .road-main .challenges .generation-commit, .road-main .challenges .challenges-commit, .road-main .challenges .screenshots-commit, .road-main .screenshots .generation-commit, .road-main .screenshots .challenges-commit, .road-main .screenshots .screenshots-commit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+.road-main .generation .generation-commit .generation-features, .road-main .generation .generation-commit .generation-chevron, .road-main .generation .generation-commit .challenges-features, .road-main .generation .generation-commit .challenges-chevron .screenshots-bug, .road-main .generation .generation-commit .screen-chevron, .road-main .generation .challenges-commit .generation-features, .road-main .generation .challenges-commit .generation-chevron, .road-main .generation .challenges-commit .challenges-features, .road-main .generation .challenges-commit .challenges-chevron .screenshots-bug, .road-main .generation .challenges-commit .screen-chevron, .road-main .generation .screenshots-commit .generation-features, .road-main .generation .screenshots-commit .generation-chevron, .road-main .generation .screenshots-commit .challenges-features, .road-main .generation .screenshots-commit .challenges-chevron .screenshots-bug, .road-main .generation .screenshots-commit .screen-chevron, .road-main .challenges .generation-commit .generation-features, .road-main .challenges .generation-commit .generation-chevron, .road-main .challenges .generation-commit .challenges-features, .road-main .challenges .generation-commit .challenges-chevron .screenshots-bug, .road-main .challenges .generation-commit .screen-chevron, .road-main .challenges .challenges-commit .generation-features, .road-main .challenges .challenges-commit .generation-chevron, .road-main .challenges .challenges-commit .challenges-features, .road-main .challenges .challenges-commit .challenges-chevron .screenshots-bug, .road-main .challenges .challenges-commit .screen-chevron, .road-main .challenges .screenshots-commit .generation-features, .road-main .challenges .screenshots-commit .generation-chevron, .road-main .challenges .screenshots-commit .challenges-features, .road-main .challenges .screenshots-commit .challenges-chevron .screenshots-bug, .road-main .challenges .screenshots-commit .screen-chevron, .road-main .screenshots .generation-commit .generation-features, .road-main .screenshots .generation-commit .generation-chevron, .road-main .screenshots .generation-commit .challenges-features, .road-main .screenshots .generation-commit .challenges-chevron .screenshots-bug, .road-main .screenshots .generation-commit .screen-chevron, .road-main .screenshots .challenges-commit .generation-features, .road-main .screenshots .challenges-commit .generation-chevron, .road-main .screenshots .challenges-commit .challenges-features, .road-main .screenshots .challenges-commit .challenges-chevron .screenshots-bug, .road-main .screenshots .challenges-commit .screen-chevron, .road-main .screenshots .screenshots-commit .generation-features, .road-main .screenshots .screenshots-commit .generation-chevron, .road-main .screenshots .screenshots-commit .challenges-features, .road-main .screenshots .screenshots-commit .challenges-chevron .screenshots-bug, .road-main .screenshots .screenshots-commit .screen-chevron {
+  width: 3.5rem;
+  height: 1.8rem;
+  border-radius: 0.8rem;
+  background: #F2F4FF;
+  color: #647196;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+}
+
+.road-main .generation .generation-commit .generation-features:hover, .road-main .generation .generation-commit .generation-chevron:hover, .road-main .generation .generation-commit .challenges-features:hover, .road-main .generation .generation-commit .challenges-chevron .screenshots-bug:hover, .road-main .generation .generation-commit .screen-chevron:hover, .road-main .generation .challenges-commit .generation-features:hover, .road-main .generation .challenges-commit .generation-chevron:hover, .road-main .generation .challenges-commit .challenges-features:hover, .road-main .generation .challenges-commit .challenges-chevron .screenshots-bug:hover, .road-main .generation .challenges-commit .screen-chevron:hover, .road-main .generation .screenshots-commit .generation-features:hover, .road-main .generation .screenshots-commit .generation-chevron:hover, .road-main .generation .screenshots-commit .challenges-features:hover, .road-main .generation .screenshots-commit .challenges-chevron .screenshots-bug:hover, .road-main .generation .screenshots-commit .screen-chevron:hover, .road-main .challenges .generation-commit .generation-features:hover, .road-main .challenges .generation-commit .generation-chevron:hover, .road-main .challenges .generation-commit .challenges-features:hover, .road-main .challenges .generation-commit .challenges-chevron .screenshots-bug:hover, .road-main .challenges .generation-commit .screen-chevron:hover, .road-main .challenges .challenges-commit .generation-features:hover, .road-main .challenges .challenges-commit .generation-chevron:hover, .road-main .challenges .challenges-commit .challenges-features:hover, .road-main .challenges .challenges-commit .challenges-chevron .screenshots-bug:hover, .road-main .challenges .challenges-commit .screen-chevron:hover, .road-main .challenges .screenshots-commit .generation-features:hover, .road-main .challenges .screenshots-commit .generation-chevron:hover, .road-main .challenges .screenshots-commit .challenges-features:hover, .road-main .challenges .screenshots-commit .challenges-chevron .screenshots-bug:hover, .road-main .challenges .screenshots-commit .screen-chevron:hover, .road-main .screenshots .generation-commit .generation-features:hover, .road-main .screenshots .generation-commit .generation-chevron:hover, .road-main .screenshots .generation-commit .challenges-features:hover, .road-main .screenshots .generation-commit .challenges-chevron .screenshots-bug:hover, .road-main .screenshots .generation-commit .screen-chevron:hover, .road-main .screenshots .challenges-commit .generation-features:hover, .road-main .screenshots .challenges-commit .generation-chevron:hover, .road-main .screenshots .challenges-commit .challenges-features:hover, .road-main .screenshots .challenges-commit .challenges-chevron .screenshots-bug:hover, .road-main .screenshots .challenges-commit .screen-chevron:hover, .road-main .screenshots .screenshots-commit .generation-features:hover, .road-main .screenshots .screenshots-commit .generation-chevron:hover, .road-main .screenshots .screenshots-commit .challenges-features:hover, .road-main .screenshots .screenshots-commit .challenges-chevron .screenshots-bug:hover, .road-main .screenshots .screenshots-commit .screen-chevron:hover {
+  background: #CFD7FF;
+}
+
+.road-main .generation .generation-commit .generation-features:focus, .road-main .generation .generation-commit .generation-chevron:focus, .road-main .generation .generation-commit .challenges-features:focus, .road-main .generation .generation-commit .challenges-chevron .screenshots-bug:focus, .road-main .generation .generation-commit .screen-chevron:focus, .road-main .generation .challenges-commit .generation-features:focus, .road-main .generation .challenges-commit .generation-chevron:focus, .road-main .generation .challenges-commit .challenges-features:focus, .road-main .generation .challenges-commit .challenges-chevron .screenshots-bug:focus, .road-main .generation .challenges-commit .screen-chevron:focus, .road-main .generation .screenshots-commit .generation-features:focus, .road-main .generation .screenshots-commit .generation-chevron:focus, .road-main .generation .screenshots-commit .challenges-features:focus, .road-main .generation .screenshots-commit .challenges-chevron .screenshots-bug:focus, .road-main .generation .screenshots-commit .screen-chevron:focus, .road-main .challenges .generation-commit .generation-features:focus, .road-main .challenges .generation-commit .generation-chevron:focus, .road-main .challenges .generation-commit .challenges-features:focus, .road-main .challenges .generation-commit .challenges-chevron .screenshots-bug:focus, .road-main .challenges .generation-commit .screen-chevron:focus, .road-main .challenges .challenges-commit .generation-features:focus, .road-main .challenges .challenges-commit .generation-chevron:focus, .road-main .challenges .challenges-commit .challenges-features:focus, .road-main .challenges .challenges-commit .challenges-chevron .screenshots-bug:focus, .road-main .challenges .challenges-commit .screen-chevron:focus, .road-main .challenges .screenshots-commit .generation-features:focus, .road-main .challenges .screenshots-commit .generation-chevron:focus, .road-main .challenges .screenshots-commit .challenges-features:focus, .road-main .challenges .screenshots-commit .challenges-chevron .screenshots-bug:focus, .road-main .challenges .screenshots-commit .screen-chevron:focus, .road-main .screenshots .generation-commit .generation-features:focus, .road-main .screenshots .generation-commit .generation-chevron:focus, .road-main .screenshots .generation-commit .challenges-features:focus, .road-main .screenshots .generation-commit .challenges-chevron .screenshots-bug:focus, .road-main .screenshots .generation-commit .screen-chevron:focus, .road-main .screenshots .challenges-commit .generation-features:focus, .road-main .screenshots .challenges-commit .generation-chevron:focus, .road-main .screenshots .challenges-commit .challenges-features:focus, .road-main .screenshots .challenges-commit .challenges-chevron .screenshots-bug:focus, .road-main .screenshots .challenges-commit .screen-chevron:focus, .road-main .screenshots .screenshots-commit .generation-features:focus, .road-main .screenshots .screenshots-commit .generation-chevron:focus, .road-main .screenshots .screenshots-commit .challenges-features:focus, .road-main .screenshots .screenshots-commit .challenges-chevron .screenshots-bug:focus, .road-main .screenshots .screenshots-commit .screen-chevron:focus {
+  background: #4661E6;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+  color: #fff;
+}
+
+.road-main .generation .comment, .road-main .challenges .comment, .road-main .screenshots .comment {
+  border-radius: 0.8rem;
+  background: #F2F4FF;
+  color: #647196;
+  margin-left: 15rem;
+  padding: 0.5rem;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+}
+
+.road-main .generation .comment:hover, .road-main .challenges .comment:hover, .road-main .screenshots .comment:hover {
+  background: #CFD7FF;
+}
+
+.road-main .generation .comment:focus, .road-main .challenges .comment:focus, .road-main .screenshots .comment:focus {
+  background: #4661E6;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+  color: #fff;
+}
+
+.road-main .interactions {
+  width: 18rem;
+  height: 15rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.road-main .interactions .live-blue {
+  width: 18rem;
+  height: 0.3rem;
+  border-radius: 0.5rem;
+  background: #AD1FEA;
+  margin-bottom: 1rem;
+}
+
+.road-main .interactions .live-p {
+  width: 3.5rem;
+  height: 1.4rem;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  color: #647196;
+}
+
+.road-main .interactions .live-h {
+  width: 15rem;
+  height: 1.6rem;
+  font-size: 1rem;
+  font-weight: 700 bold;
+  line-height: 1.7rem;
+  letter-spacing: 0.05rem;
+  margin-top: 0.5rem;
+  margin-left: 0.6rem;
+  color: #3A4374;
+}
+
+.road-main .interactions .live-p2 {
+  width: 17.5rem;
+  height: 2.8rem;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  margin-left: 0.6rem;
+  color: #647196;
+}
+
+.road-main .interactions .live-commit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+
+.road-main .interactions .live-commit .live-enchancement, .road-main .interactions .live-commit .live-chevron {
+  width: 3.5rem;
+  height: 1.8rem;
+  border-radius: 0.8rem;
+  background: #F2F4FF;
+  color: #647196;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+}
+
+.road-main .interactions .live-commit .live-enchancement:hover, .road-main .interactions .live-commit .live-chevron:hover {
+  background: #CFD7FF;
+}
+
+.road-main .interactions .live-commit .live-enchancement:focus, .road-main .interactions .live-commit .live-chevron:focus {
+  background: #4661E6;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+  color: #fff;
+}
+
+.road-main .interactions .comment {
+  border-radius: 0.8rem;
+  background: #F2F4FF;
+  color: #647196;
+  margin-left: 15rem;
+  padding: 0.5rem;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+}
+
+.road-main .interactions .comment:hover {
+  background: #CFD7FF;
+}
+
+.road-main .interactions .comment:focus {
+  background: #4661E6;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+  color: #fff;
 }
