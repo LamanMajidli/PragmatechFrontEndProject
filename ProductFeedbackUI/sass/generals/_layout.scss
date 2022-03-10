@@ -14,6 +14,7 @@ $nav-back: #373F68;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 a {
@@ -26,7 +27,6 @@ a {
     }
     
 }
-
 // Nav-bar style start
 .roadmap-container {
     width: 100%;
@@ -107,14 +107,43 @@ a {
     .reports {
         width: 21rem;
         height: 17rem;
-        border-radius: 0.6rem;
+        border-radius: 0.5rem;
         background: #fff;
 
-        .div-pink1 {
+        .reports-pink {
             width: 21rem;
             height: 0.3rem;
             border-radius: 0.5rem;
             background: $pink;
+        }
+
+        .reports-p1 {
+            width: 3.5rem;
+            height: 1.4rem;
+            font-size: 1rem;
+            margin-left: 1.5rem;
+            color: $colorp;
+
+        }
+        .reports-h {
+            width: 15rem;
+            height: 1.6rem;
+            font-size: 1rem;
+            font-weight: 700 bold;
+            line-height: 1.7rem;
+            letter-spacing: 0.05rem;
+            margin-left: 0.6rem;
+            color: $colorh;
+        }
+
+        .reports-p2 {
+            width: 17.5rem;
+            height: 2.8rem;
+            font-size: 1rem;
+            margin-left: 1.5rem;
+            line-height: 1.7rem;
+            letter-spacing: -0.05rem;
+            color: $colorp;
         }
     }
 

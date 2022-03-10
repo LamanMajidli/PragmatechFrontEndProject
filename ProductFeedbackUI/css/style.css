@@ -160,13 +160,42 @@ a i {
 .road-main .reports {
   width: 21rem;
   height: 17rem;
-  border-radius: 0.6rem;
+  border-radius: 0.5rem;
   background: #fff;
 }
 
-.road-main .reports .div-pink1 {
+.road-main .reports .reports-pink {
   width: 21rem;
   height: 0.3rem;
   border-radius: 0.5rem;
   background: #F49F85;
+}
+
+.road-main .reports .reports-p1 {
+  width: 3.5rem;
+  height: 1.4rem;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  color: #647196;
+}
+
+.road-main .reports .reports-h {
+  width: 15rem;
+  height: 1.6rem;
+  font-size: 1rem;
+  font-weight: 700 bold;
+  line-height: 1.7rem;
+  letter-spacing: 0.05rem;
+  margin-left: 0.6rem;
+  color: #3A4374;
+}
+
+.road-main .reports .reports-p2 {
+  width: 17.5rem;
+  height: 2.8rem;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  line-height: 1.7rem;
+  letter-spacing: -0.05rem;
+  color: #647196;
 }
