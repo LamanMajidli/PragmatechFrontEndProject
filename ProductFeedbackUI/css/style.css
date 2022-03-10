@@ -111,6 +111,12 @@ a i {
   color: #fff;
 }
 
+.col12 .logo-container .logo span:hover {
+  border-bottom: 1px solid #fff;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
 .col12 .logo-container .logo h1 {
   font-size: 1.25rem;
   margin-left: 2rem;
