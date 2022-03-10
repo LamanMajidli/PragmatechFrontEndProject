@@ -126,7 +126,7 @@ a {
         .reports-pink , .paths-pink {
             width: 18rem;
             height: 0.3rem;
-            border-radius: 0.5rem;
+            border-radius: 5px 5px 0 0;
             background: $pink;
             margin-bottom: 1rem;
         }
@@ -221,7 +221,7 @@ a {
         .generation-purple , .challenges-purple , .screenshots-purple {
             width: 18rem;
             height: 0.3rem;
-            border-radius: 0.5rem;
+            border-radius: 5px 5px 0 0;
             background: $purple;
             margin-bottom: 1rem;
         }
@@ -313,8 +313,8 @@ a {
         .live-blue {
             width: 18rem;
             height: 0.3rem;
-            border-radius: 0.5rem;
-            background: $purple;
+            border-radius: 5px 5px 0 0;
+            background: $blue;
             margin-bottom: 1rem;
         }
 

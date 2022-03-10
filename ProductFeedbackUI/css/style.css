@@ -179,7 +179,7 @@ a i {
 .road-main .reports .reports-pink, .road-main .reports .paths-pink, .road-main .paths .reports-pink, .road-main .paths .paths-pink {
   width: 18rem;
   height: 0.3rem;
-  border-radius: 0.5rem;
+  border-radius: 5px 5px 0 0;
   background: #F49F85;
   margin-bottom: 1rem;
 }
@@ -280,7 +280,7 @@ a i {
 .road-main .generation .generation-purple, .road-main .generation .challenges-purple, .road-main .generation .screenshots-purple, .road-main .challenges .generation-purple, .road-main .challenges .challenges-purple, .road-main .challenges .screenshots-purple, .road-main .screenshots .generation-purple, .road-main .screenshots .challenges-purple, .road-main .screenshots .screenshots-purple {
   width: 18rem;
   height: 0.3rem;
-  border-radius: 0.5rem;
+  border-radius: 5px 5px 0 0;
   background: #AD1FEA;
   margin-bottom: 1rem;
 }
@@ -382,8 +382,8 @@ a i {
 .road-main .interactions .live-blue {
   width: 18rem;
   height: 0.3rem;
-  border-radius: 0.5rem;
-  background: #AD1FEA;
+  border-radius: 5px 5px 0 0;
+  background: #62BCFA;
   margin-bottom: 1rem;
 }
 
