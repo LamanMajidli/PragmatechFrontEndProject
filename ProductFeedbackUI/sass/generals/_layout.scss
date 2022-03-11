@@ -33,8 +33,8 @@ a {
 
 // Nav-bar style start
 .roadmap-container {
-    width: 100%;
-    height: 100%;
+    // width: 100%;
+    // height: 100%;
     background: $back-col;
 }
 
@@ -124,6 +124,7 @@ a {
     }
 
     .reports , .paths {
+        position: relative;
         width: 18rem;
         height: 15rem;
         margin-top: 1.5rem;
@@ -144,6 +145,14 @@ a {
             font-size: 1rem;
             margin-left: 1.5rem;
             color: $colorp;
+
+            .fa-circle {
+                position: absolute;
+                left: 5%;
+                top: 11%;
+                font-size: 0.4rem;
+                color: $pink;
+            }
 
         }
         .reports-h , .paths-h {
@@ -197,10 +206,12 @@ a {
         
 
         .comment {
+            position: absolute;
             border-radius: 0.8rem;
             background: $button;
             color: $colorp;
-            margin-left: 15rem;
+            right: 0.5rem;
+            bottom: 2rem;
             padding: 0.5rem;
             transition: 0.35s ease;
 
@@ -216,6 +227,7 @@ a {
     }
 
     .generation , .challenges , .screenshots {
+        position: relative;
         width: 18rem;
         height: 15rem;
         margin-top: 1.5rem;
@@ -237,6 +249,14 @@ a {
             font-size: 1rem;
             margin-left: 1.5rem;
             color: $colorp;
+
+            .fa-circle {
+                position: absolute;
+                left: 5%;
+                top: 11%;
+                font-size: 0.4rem;
+                color: $purple;
+            }
         }
 
         .generation-h , .challenges-h, .screenshots-h {
@@ -266,7 +286,7 @@ a {
             margin-left: 0.5rem;
             margin-top: 1rem;
 
-            .generation-features , .generation-chevron , .challenges-features , .challenges-chevron .screenshots-bug , .screen-chevron {
+            .generation-features , .generation-chevron , .challenges-features , .challenges-chevron , .screenshots-bug , .screen-chevron {
                 width: 3.5rem;
                 height: 1.8rem;
                 border-radius: 0.8rem;
@@ -287,10 +307,12 @@ a {
             }
         }
         .comment {
+            position: absolute;
             border-radius: 0.8rem;
             background: $button;
             color: $colorp;
-            margin-left: 15rem;
+            right: 0.5rem;
+            bottom: 2rem;
             padding: 0.5rem;
             transition: 0.35s ease;
 
@@ -306,6 +328,7 @@ a {
     }
 
     .interactions {
+        position: relative;
         width: 18rem;
         height: 15rem;
         margin-top: 1.5rem;
@@ -329,6 +352,14 @@ a {
             font-size: 1rem;
             margin-left: 1.5rem;
             color: $colorp;
+
+            .fa-circle {
+                position: absolute;
+                left: 5%;
+                top: 11%;
+                font-size: 0.4rem;
+                color: $blue;
+            }
         }
 
         .live-h {
@@ -379,10 +410,12 @@ a {
             }
         }
         .comment {
+            position: absolute;
             border-radius: 0.8rem;
             background: $button;
             color: $colorp;
-            margin-left: 15rem;
+            right: 0.5rem;
+            bottom: 2rem;
             padding: 0.5rem;
             transition: 0.35s ease;
             
