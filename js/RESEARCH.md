@@ -22,3 +22,8 @@ javascript, açılan menyular kimi naviqasiya vasitələri ilə veb saytların d
  
 
 Server nədir sualının bir digər cavabı digər kompüter proqramlarına və onun istifadəçilərinə göstərilən xidməti təmin edən kompüter proqramıdır. Bir serverin ən əhəmiyyətli xüsusiyyətlərindən biri təhlükəsiz, fasiləsiz və sabit bir performans ilə məlumat axınını təmin etmək qabiliyyətidir.
+
+# Domain nədir və necə işləyir?
+
+* Domen nedir sualı ilə veb-sayt açmaqla maraqlanan hər kəs qarşılaşır. Domen veb-saytın internet üzərindəki adı və ya ünvanıdır. Domen adları “ip ünvanı” adlanan komputerlərin bir-birini tanımasını təmin edən rəqəm sisteminin sadələşdirilmiş, yadda qalması üçün hərflərlə əvəz olunmuş formasıdır. Biznesinizi internetdə də tanıtmaq istəyirsinizsə, ilk olaraq domen alaraq işə başlaya bilərsiniz.
+Domen nedir  və ya  hosting almaq başlığı ilə internetdə axtarış etdikdə qarşımıza bir çox sayt və məlumat portalları çıxsa da hər zaman dolğun və bizi qane edəcək cavablar ala bilmirik. Domen sizin saytınızın internetdə istifadə etdiyi adresdir. İnternetdə yeni bir sayt yerləşdirilərkən, heç zaman istifadə olunmamış domendən istifadə etmək vacibdir. 
