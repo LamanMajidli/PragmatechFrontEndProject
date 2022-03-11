@@ -98,11 +98,12 @@ a {
 
 // Main style start
 .road-main {
+    width: 65rem;
+    margin-top: 2rem;
+    padding: 1.5rem;
     display: flex;
     align-content: center;
     justify-content: space-between;
-    margin-top: 2rem;
-    width: 65rem;
     
     .planned-research h2 , .progress-developed h2 , .live-features h2 {
         width: 6rem;

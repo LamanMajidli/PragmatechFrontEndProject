@@ -141,6 +141,9 @@ a i {
 }
 
 .road-main {
+  width: 65rem;
+  margin-top: 2rem;
+  padding: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,8 +152,6 @@ a i {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 2rem;
-  width: 65rem;
 }
 
 .road-main .planned-research h2, .road-main .progress-developed h2, .road-main .live-features h2 {
