@@ -27,3 +27,21 @@ Server nədir sualının bir digər cavabı digər kompüter proqramlarına və 
 
 * Domen nedir sualı ilə veb-sayt açmaqla maraqlanan hər kəs qarşılaşır. Domen veb-saytın internet üzərindəki adı və ya ünvanıdır. Domen adları “ip ünvanı” adlanan komputerlərin bir-birini tanımasını təmin edən rəqəm sisteminin sadələşdirilmiş, yadda qalması üçün hərflərlə əvəz olunmuş formasıdır. Biznesinizi internetdə də tanıtmaq istəyirsinizsə, ilk olaraq domen alaraq işə başlaya bilərsiniz.
 Domen nedir  və ya  hosting almaq başlığı ilə internetdə axtarış etdikdə qarşımıza bir çox sayt və məlumat portalları çıxsa da hər zaman dolğun və bizi qane edəcək cavablar ala bilmirik. Domen sizin saytınızın internetdə istifadə etdiyi adresdir. İnternetdə yeni bir sayt yerləşdirilərkən, heç zaman istifadə olunmamış domendən istifadə etmək vacibdir. 
+
+# HTTP nədir və nəyə lazımdır?
+
+* HTTPS-nin fərqi şifrələmə sisteminin fərqliliyindən qaynaqlanır. Bəzi şirkətlərin, saytlarını HTTPS-ə çevirdiklərini görmüş olarsınız. "Google" da saytların daha təhlükəsiz olan HTTPS-ə keçmələri üçün xəbərdarlıqlar edir.
+HTTPS, ödəniş alan saytlarda, ecommerce platformalarında daha çox istifadə edilir. HTTPS-ə keçmək ilə bağlı ağıllarda bir çox sual və ya narahatlıq ola bilər. Buna görə də sizə tam olaraq bu keçidin sizə nələr qazandıracağını və ikisi arasındakı fərqin nələr olduğunu açıqlamağa çalışacağıq.
+HTTPS nədir və nələr təklif edir?
+HTTPS (Secure Hyper Text Transfer Protocol): Qısaca təhlükəsiz mətn göndərişi əlaqə protokolu olaraq adlandıra bilərik. Klassik HTTP protokoluna SSL (Təhlükəsiz Socket Qatı) protokolu əlavə etdilməsi ilə yaranır. Yəni, web saytların mətnlərlə qurduğu əlaqənin şifrələnməsi deməkdir.
+Protokol, internet serverləri və istifadəçilər arasındakı məlumatları başqaları tərəfindən oxunmaması üçün necə köçürüləcəyini təyin edən qaydalardır. Bank əməliyyatlarında və ya kredit kartı əməliyyatlarında adres çubuğunda http yerinə https yazıldığını görmüş olarsınız. Bu sizin əməliyyatınız müddətində 3-cü bir şəxs tərəfindən məlumatlarınızın başqa əllərə keçməməsi üçündür. HTTP məlumat alış-verişlərində şifrələmə yoxdur, yanına S hərfi əlavə etdiyinizdə isə bu əlaqə artıq şifrələnmiş olur.
+HTTP ilə fərqləri
+HTTP halında URL "HTTP://” ilə başlayır və HTTPS qoşulması üçün HTTPS://’ dir.
+HTTP etibarsızdır lakin HTTPS təhlükəsizdir.
+HTTP qoşulma nöqtəsi port 80 istifadə edir HTTPS əksinə əlaqə üçün 443 istifadə edir.
+HTTP halında sertifikatları təsdiqləmək lazım deyil. HTTPS üçün isə, SSL Rəqəmsal Sertifikatına ehtiyac var.
+HTTP də heç bir şifrələmə yoxdur. HTTPS-də isə məlumatlar göndərməzdən və qəbul etməzdən əvvəl şifrələnir.
+Haralarda istifadə edilə bilər?
+Brauzer ilə əlaqə qurduğunuz hər yerdə istifadə edilə bilər. Məsələn mail göndərərkən, kredit kartı şifrənizi yazarkən, bir saytda qeyd olarkən və s.. sahələrdə istifadə edilə bilər.
+Brauzerda fərqləndirmə proseduru necədir?
+Protokol şifrələnmə edərkən təsdiqlənmiş və təhlükəsiz server sertifikatlarını istifadə edir. İstifadəçi https ilə şifrələnmiş səhifəyə daxil olmaq istədiyində səhifənin şifrələmə sertifikatının brauzer tərəfindən tanınmış olması mütləqdir. Əgər səhifə brauzer tərəfindən tanınmış, təsdiqlənmiş bir sertifikat ilə işləyirsə, brauzer bu səhifəni təhlükəsiz olaraq dəyərləndirir. Əgər sertifikat brauzer tərəfindən tanınmırsa istifadəçidən sertifikata güvənib-güvənmədiyi soruşulur.
