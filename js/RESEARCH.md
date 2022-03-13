@@ -45,3 +45,30 @@ Haralarda istifadə edilə bilər?
 Brauzer ilə əlaqə qurduğunuz hər yerdə istifadə edilə bilər. Məsələn mail göndərərkən, kredit kartı şifrənizi yazarkən, bir saytda qeyd olarkən və s.. sahələrdə istifadə edilə bilər.
 Brauzerda fərqləndirmə proseduru necədir?
 Protokol şifrələnmə edərkən təsdiqlənmiş və təhlükəsiz server sertifikatlarını istifadə edir. İstifadəçi https ilə şifrələnmiş səhifəyə daxil olmaq istədiyində səhifənin şifrələmə sertifikatının brauzer tərəfindən tanınmış olması mütləqdir. Əgər səhifə brauzer tərəfindən tanınmış, təsdiqlənmiş bir sertifikat ilə işləyirsə, brauzer bu səhifəni təhlükəsiz olaraq dəyərləndirir. Əgər sertifikat brauzer tərəfindən tanınmırsa istifadəçidən sertifikata güvənib-güvənmədiyi soruşulur.
+
+# URL və URI ifadələri arasındakı fərqləri izah edin.
+
+* URI və URL arasındakı fərq :
+* Uniform Resource Identifier (URI) və Uniform Resource Locator (URL) adlı iki termin bəzən bir -birini əvəz edir. URI və URL arasındakı fərq bir az qarışıq ola bilər, ancaq aşağıdakı hissə yuxarıdakı mövzularda sizə yol göstərəcək və URI ilə URL arasındakı fərqlə bağlı anlayışınızı artırmağa çalışacaqdır. URI ilə URL arasındakı əsas fərq , URL -nin URI -nin ixtisaslaşmasıdır.
+* URL nədir ?
+* URL və ya Uniform Resource Locator ümumiyyətlə bir web ünvanı olaraq bilinir. Əsasən bir kompüter şəbəkəsində olan bir veb qaynağına istinad olaraq istifadə olunur. Həm də belə bir mənbəni əldə etmək üçün bir mexanizm olaraq dayanır. Bir URL xüsusi bir Vahid Resurs Yerləşdiricisi olaraq təyin edilə bilər. Bir çox insan URI və URL -ni bir -birinin əvəzinə istifadə etsələr də, fərqlidirlər. URL -lər əsasən veb səhifələrə daxil olmaq, faylları ötürmək, e -poçt məzmunu, verilənlər bazası üçün istifadə olunur və bir çox digər tətbiqlərdə istifadə olunur. Bir veb brauzer, yuxarıdakı ünvan çubuğunda bir veb səhifəsinin URL'sini göstərir. 
+* Bir URL aşağıdakı komponentlərlə gəlir : 
+Protokol (məsələn, http)
+Host adı (məs. Abc.com)
+Fayl adı (məsələn index.html)
+* URI nədir ?
+* URI və ya Uniform Resource Identifier , bir mənbəni müəyyən etmək üçün istifadə olunan bir simvol simvolu olaraq adlandırılır. Bu xüsusiyyət, şəbəkə üzərindəki mənbələri müəyyən etmək və onlarla əlaqə qurmaq üçün faydalıdır. Bu, müəyyən protokolların istifadəsi ilə əldə edilir. URI bir sintaksis və əlaqəli bir protokol ilə gəlir. Bir veb ünvanı və ya URL (Uniform Resource Locator) bir URI -nin ən çox yayılmış formasıdır. URN və ya vahid qaynaq adı nadir hallarda istifadə olunur və mənbələri müəyyən etmək üçün URL -ni tamamlayan bir dizaynla gəlir. URN bir şəxsin adı ilə müqayisə edilə bilər, URL isə bir küçə ünvanı ilə müqayisə edilə bilər. URI mənbələri müəyyən etmək üçün yerləri, adları və ya hər ikisini istifadə edir. Bir URI tez -tez bir mənbənin yerini müəyyən etmək üçün istifadə olunur. URI üzərindəki qarışıqlıq, mənbələri müəyyən etmək üçün həm addan, həm də yerdən istifadə etməsi ilə əlaqədardır. URI -nin iki ixtisası URL və URN -dir.
+* URN
+URI bir mənbəni ada görə təyin edir, lakin necə əldə olunacağını təyin etmir. Bir URN təyin etmək üçün ümumiyyətlə Sxem sənədlərində bir sintaksis istifadə olunur. Bu ad sahəsini təyin etmək üçün istifadə olunur. Məsələn: targetNamespace = "urn: abc"
+* URL
+URL, əsasən müəyyən şəbəkə mənbələrini tapmaq üçün istifadə olunan xüsusi bir URI -dir. URN arasındakı fərq, bir URL -in müəyyən bir mənbənin necə əldə olunacağını təyin etməsidir. URL hər gün http, ftp və smb şəklində istifadə olunur.
+* URI və URL arasındakı fərq nədir , qısa izahı :
+* İşlevsellik
+* URI: URI bir identifikatordur.
+* URL: URL, bir qaynağın necə əldə ediləcəyi haqqında məlumat verir.
+* İxtisas
+* URI: URL bir URI -dir.
+* URL: URL URI -nin ixtisaslaşmasıdır.
+* Ümumi İstifadə
+* URI: URI həm adı, həm də yeri təsvir edir.
+* URL: URL tətbiqləri təsvir etmək üçün istifadə edilə bilməz.
