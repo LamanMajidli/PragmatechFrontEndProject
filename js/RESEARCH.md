@@ -1,7 +1,6 @@
 # Javascriptlə bağlı bütün araşdırmalarım.
 
 # javascript nədir?
-
 * javascript, veb səhifələri canlandıran və onları interaktiv etmək üçün istifadə olunan güclü bir proqramlaşdırma dilidir. javascript olmadan veb saytlar sadə mətn və şəkillər olaraq qalır.javascript, İnternetdəki mürəkkəb xüsusiyyətləri asanlıqla tətbiq etməyinizə, server qarşılıqlı təsirini və cavab müddətlərini azaldır və istifadəçi təcrübəsini yaxşılaşdırdığı üçün vebin dili sayılır. Bu, hər hansı bir veb tətbiqi üçün vacib bir dil halına gətirir. HTML və CSS ilə tam bir veb sayt yaratmaq üçün istifadə edilə bilər.javascript nə üçün istifadə olunur?
 
 Bu populyar və güclü proqramlaşdırma dilinin imkanlarını sadalayarkən qeyd etməli olduğunuz ilk şey, javascript -in Html səhifələrinin məzmununu və ya üslubunu dinamik şəkildə əlavə etməyə və dəyişdirməyə imkan verməsidir. javascript, iş vaxtında veb səhifəni və ya CSS elementlərini göstərə və dəyişdirə və veb səhifələrin görünüşünü yeniləyə biləcək bir neçə üsul təqdim edir.
@@ -9,27 +8,19 @@ Bu populyar və güclü proqramlaşdırma dilinin imkanlarını sadalayarkən qe
 javascript, açılan menyular kimi naviqasiya vasitələri ilə veb saytların dizaynını artıra bilər. javascript köməyi ilə veb səhifələrdə siçan və klaviatura hərəkətlərini fərdiləşdirə bilərsiniz.javascript nədir? Bütün brauzerlərin başa düşdüyü dil olaraq qaldığı müddətcə populyar olaraq qalan bir proqramlaşdırma dili olaraq suala cavab vermək mümkündür.
 
 # Veb səhifələrin işləmə prinsipi : İnternet ve intranet arasındakı fərqlər nədir?
-
 * İnternet hər kəs üçün açıq olduğundan, müəyyən bir təşkilat və ya özəl icma, məktəb, kollec, universitet və s. Kimi bir sıra sahələrdə işləyən bir şəbəkənin inkişafına ehtiyac var idi. İntranet və ekstranet terminlərinin yaranmasının səbəbi budur. Intranet, müəyyən bir qrup insan şəbəkəsi daxilində təhlükəsizlik və məxfilik təmin edir.
 
 # Server-side və client-side ifadələrinin mənası nədir?
-
 * Server-side və client-side proqram kodunun harada işlədiyini təsvir edən veb inkişaf şərtləridir. Veb tərtibatçıları həmçinin bu fərqə frontend və backend kimi istinad edəcəklər, baxmayaraq ki, müştəri tərəfi/server tərəfi və frontend/backend tam eyni deyil. Serversiz arxitekturada serversiz təchizatçı bütün server tərəfindəki proseslərə resursları yerləşdirir və təyin edir və tətbiqdən istifadə artdıqca proseslər genişlənir.
 
 # Server nədir və necə işləyir?
-
-* Server nədir? Bu texnologiya yerinə yetirilən vəzifələrin maksimum təhlükəsizliyini təmin edir və internet istifadəçilərinin fayllarını və veb saytları saxlamaq, istəklərə cavab vermək və istənilən məlumatı təmin etmək, verilənlər bazası ilə işləmək və çox sayda istifadəçiyə məlumat vermək üçün istifadə olunur. Onlar internetin fəaliyyətində və korporativ şəbəkələrin işlənməsində mühüm rol oynayır. Bununla yanaşı şirkətlərin işlərini əhəmiyyətli dərəcədə sadələşdirir və veb-saytların, xəbər agentliklərinin fəaliyyətinin təmin olunmasını, habelə internet istifadəçiləri tərəfindən məlumatların alınmasını təmin edir.
- 
-
-Server nədir sualının bir digər cavabı digər kompüter proqramlarına və onun istifadəçilərinə göstərilən xidməti təmin edən kompüter proqramıdır. Bir serverin ən əhəmiyyətli xüsusiyyətlərindən biri təhlükəsiz, fasiləsiz və sabit bir performans ilə məlumat axınını təmin etmək qabiliyyətidir.
+* Server nədir? Bu texnologiya yerinə yetirilən vəzifələrin maksimum təhlükəsizliyini təmin edir və internet istifadəçilərinin fayllarını və veb saytları saxlamaq, istəklərə cavab vermək və istənilən məlumatı təmin etmək, verilənlər bazası ilə işləmək və çox sayda istifadəçiyə məlumat vermək üçün istifadə olunur. Onlar internetin fəaliyyətində və korporativ şəbəkələrin işlənməsində mühüm rol oynayır. Bununla yanaşı şirkətlərin işlərini əhəmiyyətli dərəcədə sadələşdirir və veb-saytların, xəbər agentliklərinin fəaliyyətinin təmin olunmasını, habelə internet istifadəçiləri tərəfindən məlumatların alınmasını təmin edir.Server nədir sualının bir digər cavabı digər kompüter proqramlarına və onun istifadəçilərinə göstərilən xidməti təmin edən kompüter proqramıdır. Bir serverin ən əhəmiyyətli xüsusiyyətlərindən biri təhlükəsiz, fasiləsiz və sabit bir performans ilə məlumat axınını təmin etmək qabiliyyətidir.
 
 # Domain nədir və necə işləyir?
-
 * Domen nedir sualı ilə veb-sayt açmaqla maraqlanan hər kəs qarşılaşır. Domen veb-saytın internet üzərindəki adı və ya ünvanıdır. Domen adları “ip ünvanı” adlanan komputerlərin bir-birini tanımasını təmin edən rəqəm sisteminin sadələşdirilmiş, yadda qalması üçün hərflərlə əvəz olunmuş formasıdır. Biznesinizi internetdə də tanıtmaq istəyirsinizsə, ilk olaraq domen alaraq işə başlaya bilərsiniz.
 Domen nedir  və ya  hosting almaq başlığı ilə internetdə axtarış etdikdə qarşımıza bir çox sayt və məlumat portalları çıxsa da hər zaman dolğun və bizi qane edəcək cavablar ala bilmirik. Domen sizin saytınızın internetdə istifadə etdiyi adresdir. İnternetdə yeni bir sayt yerləşdirilərkən, heç zaman istifadə olunmamış domendən istifadə etmək vacibdir. 
 
 # HTTP nədir və nəyə lazımdır?
-
 * HTTPS-nin fərqi şifrələmə sisteminin fərqliliyindən qaynaqlanır. Bəzi şirkətlərin, saytlarını HTTPS-ə çevirdiklərini görmüş olarsınız. "Google" da saytların daha təhlükəsiz olan HTTPS-ə keçmələri üçün xəbərdarlıqlar edir.
 HTTPS, ödəniş alan saytlarda, ecommerce platformalarında daha çox istifadə edilir. HTTPS-ə keçmək ilə bağlı ağıllarda bir çox sual və ya narahatlıq ola bilər. Buna görə də sizə tam olaraq bu keçidin sizə nələr qazandıracağını və ikisi arasındakı fərqin nələr olduğunu açıqlamağa çalışacağıq.
 HTTPS nədir və nələr təklif edir?
@@ -47,7 +38,6 @@ Brauzerda fərqləndirmə proseduru necədir?
 Protokol şifrələnmə edərkən təsdiqlənmiş və təhlükəsiz server sertifikatlarını istifadə edir. İstifadəçi https ilə şifrələnmiş səhifəyə daxil olmaq istədiyində səhifənin şifrələmə sertifikatının brauzer tərəfindən tanınmış olması mütləqdir. Əgər səhifə brauzer tərəfindən tanınmış, təsdiqlənmiş bir sertifikat ilə işləyirsə, brauzer bu səhifəni təhlükəsiz olaraq dəyərləndirir. Əgər sertifikat brauzer tərəfindən tanınmırsa istifadəçidən sertifikata güvənib-güvənmədiyi soruşulur.
 
 # URL və URI ifadələri arasındakı fərqləri izah edin.
-
 * URI və URL arasındakı fərq :
 * Uniform Resource Identifier (URI) və Uniform Resource Locator (URL) adlı iki termin bəzən bir -birini əvəz edir. URI və URL arasındakı fərq bir az qarışıq ola bilər, ancaq aşağıdakı hissə yuxarıdakı mövzularda sizə yol göstərəcək və URI ilə URL arasındakı fərqlə bağlı anlayışınızı artırmağa çalışacaqdır. URI ilə URL arasındakı əsas fərq , URL -nin URI -nin ixtisaslaşmasıdır.
 * URL nədir ?
@@ -104,8 +94,15 @@ Boolean tipli qiymətləri ekrana çıxarmaq olar, ancaq belə qiymətləri klav
 * markup language- BBC, HTML, SGML,  XML. nümunə olaraq bunları saya bilərəm.Səhifənin ümumi görünüşünü və onun ehtiva etdiyi məlumatı formatlamağa kömək edən asan başa düşülən açar sözlər, adlar və ya etiketlərdən ibarət kompüter dili
 
 # Heap and Stack memory
-
 * Stack memory(stack-yığın, memory-yaddaş)
 Stack yaddaş əməliyyat sistemi tərəfindən bizim proqramımız üçün ayrılmış yaddaş intervalıdır. Onun dəyəri sabitdir və kompilyasiya zamanı yaradılmış metodlar və dəyişənlərdən və həmçinin kompayl seçimlərindən asılı olaraq hesablanır. Bu yaddaş dolduğu halda dünyada "ad çıxarmış" Stackoverflow xətası java tərəfindən atılır. Stack yaddaşın həcmini biz -Xss parametrinin köməyi ilə təyin edə bilərik ancaq bu prosess başlamamışdan əvvəl keçərlidir proses başladıqdan sonra biz yaddaşın həcmini dəyişə bilmərik. Metodların çağırılması və lokal dəyişənlər Stack yaddaşda yerləşir. Stack yaddaş thread*-lərin icrası üçün istifadə olunur. Stack yaddaş həmişə LİFO(Last-in-First-out, Sonuncu içəri birinci çölə) qaydasına istinad  edir, bunun mənası o anlama gəlir ki, metod çağrılan zaman stack yaddaşın ən yuxarı hissəsində olur. Metod həmin yerdə onun icrası zamanı qalır yəni, metod çağrılandan və işini yekunlaşdırana qədər. Metodların lokal dəyişənləri üçün stackda ayrıca sahə yaranır və o da methodun icrası başa çatana kimi stackda qalır. Bildiyimiz kimi main metodu xüsusi bir metoddur və ümumi prosesin başlandığı və bitdiyi yer məhz elə bu metoddur və həmin metodun lokal dəyişənləri prosesin sonuna kimi yaddaşda qalır. Static dəyişənlər eyni qayda ilə idarə edilir lakin kiçik bir fərq onlar ümumi stack-da yerləşirlər.  Kod nümunəsinə baxaq və daha aydın şəkildə anlamağa çalışaq.
 * Heap Memory
 Heap yaddaş Obyektlər və JRE* klassları üçün java tərəfindən ayrılmış yaddaşdır. Yaradılan obyektlər hər zaman Heap yaddaşda yerləşir. JVM* əməliyyat sistemindən bir yaddaş intervalı ayırır və sonra proqramımız üçün həmin yaddaşı idarə edir. Proqramın icrası zamanı hər yeni yaradılan obyekt üçün java tərəfindən heap yaddaş daxilində xüsusi bir hissə ayrılır.Yeni yaradılan obyektin  static olmayan(instance) dəyişənləri Heap memory daxilində sözügedən obyekt üçün ayrılmış yaddaş daxilində yerləşir Heap yaddaş dolduğu zaman "MemoryOutOfError: Java Heap Space error" xətası baş verir. Biz -Xms və -Xmx parametrlərinin köməyi ilə başlanğıc hal üçün Heap yaddaşın həcmini təyin edə bilərik. Əgər yaradılmış obyektə heç bir yerdən istinad edilmirsə başqa sözlə hər hansı prosessdə iştirak etmirsə bu zaman JVM tərəfindən avtomatik olaraq Heap yaddaşdan silinir bu funkiyanın adı Garbage Collection*-dur.
+
+# Js variable nədir?
+* Bu mövzuda JavaScriptdə dəyişənlər necə yazılmalıdır vəsair bu haqda danışacayıq.
+JavaScriptdə dəyişənlər  var(yəni variable) şəklində yazılır.  Bunu həm String kimi həmdə İnteger kimi göstərmək olar.
+var x = 12;
+var ad = “Əli”;
+document.write(x+ad); belə də yazaraq nəticəni brauzerdə əks etdirə bilərik. İndi tutaq ki biz String dəyişənin içərisində ” salam ” yazmaq istsək səhv verəcək. Ancaq aşağıdakı şəkildə yazsaq səhv verməyəcək.
+var g = “Əli\”salam\” “;
