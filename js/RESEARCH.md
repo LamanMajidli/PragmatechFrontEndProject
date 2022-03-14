@@ -117,3 +117,9 @@ Dəyişən dəyərlərə Dəyişənlər deyilir .
 # JavaScript Operatorları
 * JavaScript dəyərləri hesablamaq üçün arifmetik operatorlardan ( + - * /) istifadə edir.
 * JavaScript dəyişənlərə qiymətlər təyin etmək üçün təyin operatorundan ( =) istifadə edir.
+
+# Tercume olunma qaydasina əsasən dillər :
+* İnterpreter and Compiler nədir? 
+* Compiler
+Sadə dildə desək, compiler bir programdır və işi bir dildən başqa dilə çevirməkdir. Hansı dildən çevirəcəksə, ona source language (və ya source program) , çevirəcəyi dilə isə target language (və ya target program) deyilir və compilerin digər bir böyük xüsusiyyəti də tərcümə prosesində bizə source codeda olan errorlar haqda məlumat verməsidir.
+* 
