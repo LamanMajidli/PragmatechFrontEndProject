@@ -122,4 +122,11 @@ Dəyişən dəyərlərə Dəyişənlər deyilir .
 * İnterpreter and Compiler nədir? 
 * Compiler
 Sadə dildə desək, compiler bir programdır və işi bir dildən başqa dilə çevirməkdir. Hansı dildən çevirəcəksə, ona source language (və ya source program) , çevirəcəyi dilə isə target language (və ya target program) deyilir və compilerin digər bir böyük xüsusiyyəti də tərcümə prosesində bizə source codeda olan errorlar haqda məlumat verməsidir.
-* 
+* Interpreters (Tərcüməçi)
+* Tərcüməçi nədir?
+Tərcüməçi, hər bir yüksək səviyyəli proqram ifadəsini maşın koduna daxil edən bir kompüter proqramıdır. Buraya mənbə kodu, əvvəlcədən tərtib edilmiş kod və skriptlər daxildir. Həm tərtibçi, həm də tərcüməçilər eyni işi görürlər ki, bu da daha yüksək səviyyəli proqramlaşdırma dilini maşın koduna çevirir.Tərcüməçilər proqram işlədikdə kodu maşın koduna çevirirlər.
+* 1.Interpreter olan proqramlasdirma dilleri kodlari sətr be sətr olaraq print edir.
+* 2.Interpreter hər sətrde mənbə kodunu analiz edərkən çox az vaxt aparir amma prosesi icra etmək üçün ümumi vaxt daha yavaşdır.
+* 3.Interpreter vasitəçi kodu yaratmır. Beləliklə, interprete yaddaş baxımından olduqca səmərəlidir.
+* 4.İlk səhvlə qarşılaşana qədər proqramı davamlı tərcümə etməyə davam edir. Hər hansı bir səhv aşkar edildikdə, işləməyi dayandırır və bu səbəbdən ayıklama asanlaşır.
+* 5.Interpreter məsələn Ruby və Python kimi proqramlaşdırma dilləri tərəfindən istifadə olunur.
