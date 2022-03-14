@@ -106,3 +106,14 @@ var x = 12;
 var ad = “Əli”;
 document.write(x+ad); belə də yazaraq nəticəni brauzerdə əks etdirə bilərik. İndi tutaq ki biz String dəyişənin içərisində ” salam ” yazmaq istsək səhv verəcək. Ancaq aşağıdakı şəkildə yazsaq səhv verməyəcək.
 var g = “Əli\”salam\” “;
+
+# JS syntax nədir?
+* JavaScript Dəyərləri
+JavaScript sintaksisi iki növ dəyər müəyyən edir:
+Sabit dəyərlər
+Dəyişən dəyərlər
+Sabit dəyərlərə Literals deyilir .
+Dəyişən dəyərlərə Dəyişənlər deyilir .
+# JavaScript Operatorları
+* JavaScript dəyərləri hesablamaq üçün arifmetik operatorlardan ( + - * /) istifadə edir.
+* JavaScript dəyişənlərə qiymətlər təyin etmək üçün təyin operatorundan ( =) istifadə edir.
