@@ -17,10 +17,23 @@
 
 // task 2
 
-// let a;
-// a = 5;
+// let x;
+// x = 5;
 // let ad = 'Lyaman'
 
-// console.log(a);
-// console.log(typeof a)
+// console.log(x);
+// console.log(typeof x)
 // console.log(` ${ad} , daxil etdiyiniz deyerin novu reqemdir.`)
+
+// task 3
+
+// let eded=prompt("Ədəd daxil et: ");
+// for(let i=0; i<eded.length; i++){
+//     console.log(eded.charAt(i))
+// }
+
+// task 4
+
+//  let azalanSira=[0, -1, -10,]
+// azalanSira.sort(function(a,b){return(b-a)})
+// document.write(azalanSira)
