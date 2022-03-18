@@ -17,6 +17,8 @@
 
 // task 2
 
+// x adında dəyişən təyin edin. bu dəyişənə istənilən tipdə data təyin edilə bilər.Sizdən tələb olununan daxil edilən dəyərin növünü tapmaq və ona uyğun ekrana mesaj yazdırmaqdır. (Nümunə: Daxil etdiyini dəyər rəqəmdir)
+
 // let x=5;
 // console.log(typeof(x));
 
@@ -32,19 +34,15 @@
 
 // task 3
 
-// let eded=prompt("Ədəd daxil et: ");
-// for(let i=0; i<eded.length; i++){
-//     console.log(eded.charAt(i))
-// }
-
 
 // task 4
 
+// verilən 4 ədədi böyükdən kiçiyə doğru ekrana çap edən program yazın
 
-let d = 8;
-let f =2;
-let g =6;
-let h =3;
-let arr =[d , f, g, h];
-arr.sort((a, b) => a - b);
-console.log(arr);
+// let d = 8;
+// let f =2;
+// let g =6;
+// let h =3;
+// let arr =[d , f, g, h];
+// arr.sort((a, b) => a - b);
+// console.log(arr);
