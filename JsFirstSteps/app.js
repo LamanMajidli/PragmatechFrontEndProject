@@ -17,13 +17,18 @@
 
 // task 2
 
-// let x;
-// x = 5;
-// let ad = 'Lyaman'
+let x=5;
+console.log(typeof(x));
 
-// console.log(x);
-// console.log(typeof x)
-// console.log(` ${ad} , daxil etdiyiniz deyerin novu reqemdir.`)
+let a = 12345;
+let b= a.toString();
+let c;
+for (var i = b.length - 1; i >= 0; i--) {
+    c=a%10;
+    a=a-c;
+    a=a/10;
+    console.log(c);
+}
 
 // task 3
 
@@ -31,6 +36,7 @@
 // for(let i=0; i<eded.length; i++){
 //     console.log(eded.charAt(i))
 // }
+
 
 // task 4
 
