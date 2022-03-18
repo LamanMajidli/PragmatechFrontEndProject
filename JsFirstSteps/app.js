@@ -76,4 +76,15 @@
 //    console.log(`yaxınlığın olubç olmaması ölçülə bilmədi`)
 // }
 
+// task 5
 
+// verilən kəsirli ədədin (nümumə: 4.234) tam hissəsi ilə kəsirli hissəsini ayrı ayrı ekrana çap edən program yazın
+
+// let a = 4.234;
+// let netice;
+// let netice_2;
+// netice = Math.floor(a);
+// netice_2=a-netice;
+
+// console.log(netice);
+// console.log(netice_2);
