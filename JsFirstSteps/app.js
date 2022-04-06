@@ -57,5 +57,6 @@
 //  console.log(a);
 //  console.log(a.toFixed());
 
+// task 6
 
 
