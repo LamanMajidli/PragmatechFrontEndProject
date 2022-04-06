@@ -1,36 +1,33 @@
-// task 1
+ // task1
 
 // a b və c ədədləri verilir. a və b ədədlərindən hansının c ədədinə daha yaxın olduğunu tapmağınız tələb olunur.
 
-// let a=prompt(" a ədədini daxil et: ");
-// let b=prompt(" b ədədini daxil et: ");
-// let c=prompt(" c ədədini daxil et: ");
-// let c_a=(Number(c)-Number(a));
-// let c_b=(Number(c)-Number(b));
+// let a = 10;
+// let b = 8;
+// let c = 5;
 
-// if (c_a > c_b){
-//     alert(" Daxil edilən b ədədi c ədədinə daha yaxındır. ")
-// }else{
-//     alert(" Daxil edilən a ədədi c ədədinə daha yaxındır. ")
+//  if (a-b < b-c) {
+//     console.log(true);
+//  }
+//  else {
+//      console.log(false);
+//  }
+
+
+//  task2
+
+// a b və c ədədləri verilir. a və b ədədlərindən hansının c ədədinə daha yaxın olduğunu tapmağınız tələb olunur.
+
+// let x = '5';
+// let ad = "Sifarisci"
+// console.log(typeof x);
+// if(x = String) {
+//     console.log(`hormetli ${ad} sizin taskin cavabi Stringdir`)
+// }
+// else {
+//     console.log("cavab yanlisdir");
 // }
 
-
-// task 2
-
-// x adında dəyişən təyin edin. bu dəyişənə istənilən tipdə data təyin edilə bilər.Sizdən tələb olununan daxil edilən dəyərin növünü tapmaq və ona uyğun ekrana mesaj yazdırmaqdır. (Nümunə: Daxil etdiyini dəyər rəqəmdir)
-
-// let x=5;
-// console.log(typeof(x));
-
-// let a = 12345;
-// let b= a.toString();
-// let c;
-// for (var i = b.length - 1; i >= 0; i--) {
-//     c=a%10;
-//     a=a-c;
-//     a=a/10;
-//     console.log(c);
-// }
 
 // task 3
 
@@ -39,12 +36,17 @@
 
 // verilən 4 ədədi böyükdən kiçiyə doğru ekrana çap edən program yazın
 
-// let a = 8;
-// let b =2;
-// let c =6;
-// let d =3;
-// let arr =[a , c, b, a];
-// arr.sort((e, f) => e - f);
+// let a = 7;
+// let b = 10;
+// let c = 5;
+// let d = 2;
+// let f = 4;
+// let g = 6;
+// let h = 3;
+// let arr = [a,b,c,d,f,g,h];
+// arr.sort((a,b) => a + b);  
+// console.log(arr)
+// arr.sort((a,b) => a -  b);
 // console.log(arr);
 
 // task 6
@@ -76,15 +78,12 @@
 //    console.log(`yaxınlığın olubç olmaması ölçülə bilmədi`)
 // }
 
-// task 5
+// task5
 
 // verilən kəsirli ədədin (nümumə: 4.234) tam hissəsi ilə kəsirli hissəsini ayrı ayrı ekrana çap edən program yazın
 
 // let a = 4.234;
-// let netice;
-// let netice_2;
-// netice = Math.floor(a);
-// netice_2=a-netice;
+//  console.log(a);
+//  console.log(a.toFixed());
 
-// console.log(netice);
-// console.log(netice_2);
+
