@@ -49,6 +49,8 @@
 // console.log(arr);
 
 
+
+
 // task5
 
 // verilən kəsirli ədədin (nümumə: 4.234) tam hissəsi ilə kəsirli hissəsini ayrı ayrı ekrana çap edən program yazın
@@ -63,3 +65,26 @@
 // b_x=230,b_y=400
 // c_x=210,c_y=345
 
+
+
+// task19mart
+
+// let a = 78;
+
+// if (a = 4) {
+//     console.log(a);
+// } else {
+//     let a = 12;
+//     console.log(a);
+// }
+
+// console.log(a);
+
+let a = 78;
+
+function Foo() {
+     a = 34;
+    console.log(a)
+}
+console.log(a);
+Foo()
