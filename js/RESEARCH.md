@@ -161,4 +161,33 @@ heçdə təsədüfi deyil ki, “Var”ın bir üst versiyası kimi gəlmişdir.
 Let dəyişənləri yenilənə bilir amma yenidən təyin edilə bilmir.
 * Gördüyünüz kimi yenilənə bilən let dəyişkəni, yenidən təyin oluna bilmədi və error verdi. “Var” və “Let” dəyişkənləri arasında əsas fərq də məhz elə budur.Amma eyni dəyişəni müxtəlif scoplarda versək heç bir errorla üzləşmirik.
 * Const — İngiliscədən tərcümədə Constant- sabit deməkdir və adından da göründüyü kimi dəyişkəni sabit edir, nə yenilənə nə də yenidən təyin oluna bilir. Bütün xususiyyətlərinə görə “let”-dən fərqlənməyən const yalnız bu faktorla ondan fərqlənir.
-* 
+
+# İmperativ və Deklarativ Proqramlaşdırma Arasındakı Fərq
+* Proqramlaşdırma paradiqması bəzi proqramlaşdırma dilindən istifadə edərək problemləri həll etmək üçün bir yanaşmadır və ya bəzi yanaşmadan sonra əlimizdə olan alətlər və üsullardan istifadə edərək problemi həll etmək üsuludur. Məlum olan bir çox proqramlaşdırma dilləri var, lakin onların hamısı həyata keçirildikdə bəzi strategiyalara əməl etməlidirlər və bu metodologiya/strategiya paradiqmalardır. Müxtəlif proqramlaşdırma dillərindən başqa, hər bir tələbi yerinə yetirmək üçün çoxlu paradiqmalar var.
+
+* İmperativ Proqramlaşdırma proqramın necə icra olunduğunu təsvir edən proqramlaşdırma paradiqmasının bir növüdür. Tərtibatçılar daha çox cavabın addım-addım necə alınacağı ilə maraqlanırlar. O, əmr imperativlərinin ardıcıllığını ehtiva edir. Bunda icra qaydası çox vacibdir və həm dəyişən, həm də dəyişməz verilənlərdən istifadə edir. Fortran, Java , C , C++ proqramlaşdırma dilləri imperativ proqramlaşdırmaya misaldır. 
+
+* İmperativ Proqramlaşdırma :
+Burada proqramlar bunun necə ediləcəyini müəyyənləşdirir.
+Onu necə əldə etmək və ya yerinə yetirmək yollarını təsvir etməkdir.
+Öyrənmək və oxumaq asanlığı, şərti modelin başa düşülməsi asanlığı və s.  
+Prosedur proqramlaşdırma, obyekt yönümlü proqramlaşdırma, paralel emal yanaşması daxildir.  
+İstifadəçiyə kompilyatora qərar və əmrlər verməyə icazə verilir. 
+Bunun bir çox yan təsirləri var və deklarativ proqramlaşdırma ilə müqayisədə dəyişkən dəyişənləri ehtiva edir.  
+Aşağı səviyyəli proqramlaşdırmada çox vacib olan tərtibatçılara tam nəzarət edir. 
+
+* Deklarativ Proqramlaşdırma hansı proqramların icra olunacağını təsvir edən proqramlaşdırma paradiqmasının bir növüdür. Tərtibatçılar alınan cavabla daha çox maraqlanırlar. O, hansı nəticələr əldə etmək istədiyimizi bəyan edir və proqramlaşdırma dilini bir kənara qoyub, sadəcə onları necə istehsal edəcəyimizi anlamağa diqqət yetirir. Sadə sözlə, əsasən son nəticəyə diqqət yetirir. Hesablamanın məntiqini ifadə edir. Miranda, Erlanq, Haskell, Proloq deklarativ proqramlaşdırmanın bir neçə məşhur nümunəsidir.
+
+* Deklarativ Proqramlaşdırma : 
+Burada proqramlar nə edilməli olduğunu müəyyənləşdirir.  
+Hesablamanın məntiqini ifadə edir.
+İstədiyiniz nəticəni necə əldə edəcəyinizi birbaşa diktə etmədən təsvir etməkdir. 
+Onun üstünlükləri yollarla tətbiq oluna bilən effektiv kod, asan genişləndirmə, yüksək səviyyədə abstraksiya və s.  
+Məntiqi proqramlaşdırma və funksional proqramlaşdırma daxildir. 
+Tərtibçiyə qərar qəbul etməyə icazə verilir. 
+Heç bir yan təsiri yoxdur və imperativ proqramlaşdırma ilə müqayisədə dəyişən dəyişənlər yoxdur.  
+Kod strukturunu sadələşdirməklə birlikdə təkrarlanan axını avtomatlaşdıra bilər. 
+
+
+
+
