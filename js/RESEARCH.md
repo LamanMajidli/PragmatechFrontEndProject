@@ -188,6 +188,62 @@ Tərtibçiyə qərar qəbul etməyə icazə verilir.
 Heç bir yan təsiri yoxdur və imperativ proqramlaşdırma ilə müqayisədə dəyişən dəyişənlər yoxdur.  
 Kod strukturunu sadələşdirməklə birlikdə təkrarlanan axını avtomatlaşdıra bilər. 
 
+# Javascript və funksional proqramlaşdırma
+* Funksional paradiqmada proqrama yuxarıdan yanaşırsınız. Sanki bütün girişləri verdiyiniz və bütün nəticəni əldə etdiyiniz tək bir metoddur. Sonra məntiqi olaraq parçalamağa başlayırıq. Funksional proqram bir-birinə zəng vuran və girişlərini istənilən nəticəyə çevirən kiçik proqramların ağacı kimi formalaşır.
+
+Sözümüzü ümumiləşdirsək,funksional proqramlaşdırma tək funksiyalı kiçik funksiyaları kompozisiya prinsipi ilə birləşdirərək qurulmuş bir proqramdır.
+* Funksional proqramlaşdırmanın bəzi prinsipləri var :
+
+1. Funksiya öz parametrləri xaricində başqa məlumat üzərində işləmir.
+2. Funksiya öz parametrlərini və ya xarici məlumatlarıni dəyişdirmir.
+3. Funksiya sadəcə dəyər döndürərək nəticə verir.
+4. Funksiya yalnız bir məntiqi funksiyanı yerinə yetirir.
+5. Funksiya həmişə eyni giriş ilə eyni çıxışı istehsal edir.
+6. Funksiya bütün mümkün girişlər üçün məntiqi nəticələr yaradır.
+# Saf Funksiya nədir?
+
+1. Saf funksiyalar həmişə öz giriş arqumentlərindən asılıdır. Yəni ki, funksiya həmişə daxil etdiyimiz funksiyaları çıxışa verməlidir.
+
+2. Saf funksiyaların yan təsirləri yoxdur. Yəni yan təsirlər nə bizim arqumentlərdə dəyişikliklər edəcək, nə də çağırıldığı ətraf mühitə təsir edəcək.
+
+İki giriş arqumenti verilən iki ədədin hasilini qaytaran aşağıda göstərilən saf bir funksiyaya baxaq.
+
+function multipleOfNumbers(x, y) {
+return x * y;
+}
+
+Saf funksiyalar həmişə proqnozlaşdırıla bilən davranışa malik sadə tikinti bloklarıdır. Beləliklə, onlar hər hansı bir xarici təsir olmadan həmişə eyni proqnozlaşdırılan nəticəni qaytarırlar.
+# Immutability
+* Dəyişməzlik nədir?
+Dəyişməzlik, proqram axını zamanı yaradılan məlumatların heç vaxt dəyişməməsinə əsaslanan bir anlayışdır.Yəni proqram yazarkən, hər hansı bir məlumatda dəyişiklik edilərkən orijinal məlumatların qorunmasını istəyirik. Çünki birdən çox yerdə orijinal məlumatlardan istifadə edilə bilər. Dəyəri qorunmayan məlumatlarda dəyişiklik proqramın sonunda gözlənilməz yerlərə təsir edə bilər
+
+İbtidai tip dəyərlər, dəyərləri ilə yaddaşda saxlandıqları üçün axın boyunca qorunur. Onlar dəyişməz dəyərlərdir. Referans tipi dəyərlər istinad adresləri ilə yaddaşda saxlanıldığından, axıra qədər qorunmasına zəmanət verilmir. Dəyişdirilə bilən dəyərlərdir.
+* Referential Transparency
+Funksional proqramlaşdırmada Referencial Transparency ümumiyyətlə bir proqramdakı ifadənin, proqramın nəticəsini dəyişdirmədən dəyəri (və ya eyni dəyərə malik olan hər hansı bir şey) ilə əvəz edilə bilməsi kimi müəyyən edilir. Bu, metodların başqa bir təsiri olmayaraq müəyyən bir arqument üçün həmişə eyni dəyəri qaytarmalı olduğunu nəzərdə tutur. Bu funksional proqramlaşdırma konsepsiyası, vacib proqramlara da aiddir və kodunuzu daha aydınlaşdırmanıza kömək edə bilər.
+* İmperativ Proqramlaşdırmada Referential Transparency
+Həm vacib, həm də funksional proqramlaşdırma funksiyalarından istifadə edir. Funksional proqramlaşdırma yalnız funksiyalardan istifadə etsə də , məcburi proqramlaşdırma aşağıdakılardan istifadə edir:
+* saf funksiyalar: dəyərləri qaytaran və başqa təsirləri olmayan metodlar
+* saf effektlər: heç bir şey qaytarmayan metodlar, ancaq bunların xaricindəki bir şeyi dəyişdirmək)
+* yan təsirləri olan funksiyalar: həm dəyəri qaytarmaq, həm də bir şeyi dəyişdirmək üsulları
+# First-class functions
+* Proqramlaşdırmada birinci dərəcəli funksiya funksiyanın dəyişən kimi təyin
+edilməsidir. Bu xüsusi vurğulanmalıdır, çünki bir funksiyanın başqa bir
+funksiyaya arqument kimi ötürülə bilməsi deməkdir.
+
+Bütün dillər birinci dərəcəli funksiya fikrini dəstəkləmir və bunlar adətən C.
+Java və C ++ kimi imperativ dillərdir.
+
+Birinci dərəcəli funksiyalardan söz gedəndə , bir dəyişənə funksiya təyin edə
+bilərsiniz, lakin dəyişənin həqiqi dəyəri daxil edilənə qədər təyin olunmur. Bu
+qeyri-səlis bir sahədir, çünki tapşırıq dərhal baş vermir. İmperativ
+
+proqramlaşdırma aydınlıq tələb edir və birinci dərəcəli funksiyalar qeyri-
+müəyyən bir prosses təqdim edir.
+# Higher-order functions
+* High order funksiyalar: Sizin yazdığınız funksiyalar parametr olaraq başqa bir funksiya alırsa və ya nəticə olaraq basqa funksiya verirsə belə funksiyalara high order funksiyalar deyirlər. High order funksiyalara nümunə olaraq Array obyektində olan filter(),map() və reduce() nümünə verə bilərik. Biz nümunədə filter() funksiyasından istifadə edərək higher order functionlari izah edəcəyik.Mövzunu izah etmək üçün filter() funksiyasindan istifadə edək.
+
+Verilmis arrayda 10 dan kicik ededleri gostermek lazimdir.Bunun üçün for dovrundən və ya filter() funksiyasindan istifadə edə bilərik.
+
 
 
 
