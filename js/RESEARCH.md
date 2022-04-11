@@ -244,6 +244,40 @@ müəyyən bir prosses təqdim edir.
 
 Verilmis arrayda 10 dan kicik ededleri gostermek lazimdir.Bunun üçün for dovrundən və ya filter() funksiyasindan istifadə edə bilərik.
 
+# Scope nədir?
+* Scope dilimizə tərcümədə “əhatə dairəsi” mənasını verir. Yəni mən funksiya daxilində dəyisən yaratmışamsa həmin dəyişəni funksiyadan xaricdə istifadə edə bilmərəm. Çünki həmin dəyişən funksiyanın əhatə dairəsində deyil. Aşağıdakı nümunədə bunu daha yaxşı anlamaq olar.
+    warning();
+    function warning(){
+    var message = "bu dəyişən yalnız funksiya daxilində mövcud olacaq";
+    console.log(message);//bu halda düz işləyəcək
+    }
+    console.log(message);//bu halda error verəcək
+Errora səbəb message dəyişəninin funksiyadan xaricdə mövcud olmamasıdı. Sadə desək message deyişəni yalnız warning funksiyası daxilində “canlı” olur, warning funksiyasından xaricdə message dəyişəni ömrünü başa vurur. Bəhs etdiyim nümünə daha əvvəl də javascriptdə mövcud olan function blocke scope idi. Ecmascript 6 (ES6) ilə olan yenilikdə block scope da əlavə edildi. Aşağıdakı nümünədə bu anlayışa baxaq.
+    var i = "block scope";
+    for(var i = 0;i<10;i++){
+    console.log(i);//0,1,2,3,4,5,6,7,8,9
+    }
+    console.log(i);//10
+Yuxarıdakı nümunədə son nəticəni block scope gözlədiyimiz halda, cavab necə oldu ki 10 alındı?
+Başlanğıcda i-nin dəyəri block scope olur, ancaq for loop içərisində artıq i dəyərini dəyişir.
+Bunun qarşısını necə almaq olar?
+ES6 ilə olan yenilik artıq bu problemi həll etməyə imkan verir.
+    var i = "block scope";
+    for(let i = 0;i<10;i++){
+    console.log(i);//0,1,2,3,4,5,6,7,8,9
+    }
+    console.log(i);//block scope
+For loop içərisində var sözünü let ilə əvəz etdikdə bu problemi aradan qaldırmaq mümkün olur.
+Digər üsülda isə əvvəlki metoddan yəni function blocke scope istifadə edərək problemi aradan qaldırmaq olar.
+    var i = "block scope";
+    (function(){
+    for(var i =0;i<10;i++){
+    console.log(i);//0,1,2,3,4,5,6,7,8,9
+    }
+    })()
+    console.log(i)//block scope
+    
+
 
 
 
